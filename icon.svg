@@ -1,12 +1,17 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-  <!-- Full-bleed navy background — safe for both "any" and "maskable" use -->
-  <rect width="512" height="512" fill="#0B3D66"/>
-  <!-- Perspective road -->
-  <path d="M210 152 L302 152 L398 402 L114 402 Z" fill="#EAE5D8"/>
+  <!-- V1 uses a forest-green background so the three PWAs (main navy,
+       V1A brown, V1 green) read as distinct thumbnails in the taskbar. -->
+  <rect width="512" height="512" fill="#2d7a3d"/>
+  <!-- Perspective road - same silhouette as main + V1A so the family
+       reads as RoadWalk. -->
+  <path d="M210 152 L302 152 L398 402 L114 402 Z" fill="#F5F1EA"/>
   <!-- Dashed centre line -->
-  <path d="M256 170 L256 388" fill="none" stroke="#0B3D66"
+  <path d="M256 170 L256 388" fill="none" stroke="#2d7a3d"
         stroke-width="22" stroke-dasharray="38 30"/>
-  <!-- Location pin sitting at the head of the road -->
-  <circle cx="256" cy="120" r="52" fill="#E8A838"/>
-  <circle cx="256" cy="120" r="21" fill="#0B3D66"/>
+  <!-- Yellow "V1" tag chip in the top-right so a glance identifies the
+       Signs-only version. Narrower than V1A's chip since "V1" is 2 chars. -->
+  <rect x="336" y="52" width="120" height="80" rx="12" fill="#E8A838"/>
+  <text x="396" y="112" text-anchor="middle"
+        font-family="Verdana, sans-serif" font-weight="900" font-size="54"
+        fill="#0f2a15">V1</text>
 </svg>

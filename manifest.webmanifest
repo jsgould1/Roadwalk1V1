@@ -1,13 +1,13 @@
 {
-  "name": "RoadWalk — AECOM Pavement Inspection",
-  "short_name": "RoadWalk",
-  "description": "Field data collection for roadway and parking-lot pavement inspections.",
+  "name": "RoadWalk V1 — Signs Report",
+  "short_name": "RoadWalk V1",
+  "description": "Signs-only snapshot at commit d42a4f7 (2026-06-24), the last known-good build before the Culvert Assessment Report module was added. Full Signs Inventory Report + all pre-June-24 features; no Culverts Report module.",
   "start_url": "./roadwalk.html",
   "scope": "./",
   "display": "standalone",
   "orientation": "any",
   "background_color": "#F5F1EA",
-  "theme_color": "#0B3D66",
+  "theme_color": "#2d7a3d",
   "icons": [
     {
       "src": "./icon.svg",
