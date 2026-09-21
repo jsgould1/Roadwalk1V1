@@ -113814,7 +113814,11 @@
   {
    "id": "N3",
    "name": "Newfound Gap Rd NC #3 (MP 20.902-30.00)",
+   "project_code": "NC NP GRSM 10S(2)",
    "type": "linear",
+   "mp_start": 20.902,
+   "mp_end": 30.0,
+   "pathweb_refs": [],
    "alignment": [
     [
      -83.4023451750443,
@@ -115925,10 +115929,8 @@
      35.522219
     ]
    ],
-   "pins": [],
-   "mpStart": 20.902,
-   "mpEnd": 30.0,
-   "_source": "OSM way 290422702 (Newfound Gap Rd S) - MP 20.902 to 30.00 - stitched into bundle by add_nc3_section.py"
+   "sub_alignments": [],
+   "pins": []
   },
   {
    "id": "C",
