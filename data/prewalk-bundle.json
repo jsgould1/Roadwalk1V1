@@ -115930,7 +115930,2264 @@
     ]
    ],
    "sub_alignments": [],
-   "pins": []
+   "pins": [
+    {
+     "id": "N3-SIG-001",
+     "ulid": "4X4HSSD9EE7YZKKWES8QBQTXTD",
+     "kind": "pt_sign",
+     "source": "AECOM_XLSX_10S1_MP20-30",
+     "status": "pending",
+     "geometry": {
+      "type": "Point",
+      "coordinates": [
+       -83.395612948916,
+       35.59538845451703
+      ]
+     },
+     "sta_ft": 2379.0,
+     "sta": "23+78.99",
+     "attrs": {
+      "side": "R",
+      "eop_offset": 8.0,
+      "n_posts": 1.0,
+      "mp": 21.356,
+      "posts": [
+       {
+        "type": "WOOD_4X4",
+        "_type_raw": "4 x 4 Wood",
+        "height_ft": 8.0,
+        "foundation": "buried_direct",
+        "breakaway": "no",
+        "condition": "E",
+        "_cond_raw": "Fair, Loose"
+       }
+      ],
+      "panels": [
+       {
+        "angle_deg": 0.0,
+        "description": "Bump",
+        "size": "30\" x 30\"",
+        "panel_condition": "F",
+        "sheet_condition": "F",
+        "damage": "Rock",
+        "sheeting_type": "DG3",
+        "_sheeting_raw": "Diamond",
+        "back_panel": "Brown",
+        "mounting": "Bolted",
+        "reflectivity": "P",
+        "comment": "Consider removal (bump not felt)"
+       },
+       {
+        "angle_deg": 0.0,
+        "description": "35 mph",
+        "size": "18\" x 18\"",
+        "panel_condition": "P",
+        "sheet_condition": "P",
+        "damage": "Bent",
+        "sheeting_type": "DG3",
+        "_sheeting_raw": "Diamond",
+        "back_panel": "Brown",
+        "mounting": "Bolted",
+        "reflectivity": "F"
+       }
+      ],
+      "source": "AECOM_XLSX_10S1_MP20-30",
+      "_source_row": 4
+     }
+    },
+    {
+     "id": "N3-SIG-002",
+     "ulid": "5GMTYZVEWYKB7ZX6A1PJ3D4HND",
+     "kind": "pt_sign",
+     "source": "AECOM_XLSX_10S1_MP20-30",
+     "status": "pending",
+     "geometry": {
+      "type": "Point",
+      "coordinates": [
+       -83.35632106890073,
+       35.58493663358414
+      ]
+     },
+     "sta_ft": 14777.0,
+     "sta": "147+76.97",
+     "attrs": {
+      "side": "L",
+      "eop_offset": 6.0,
+      "n_posts": 1.0,
+      "mp": 23.722,
+      "posts": [
+       {
+        "type": "WOOD_4X4",
+        "_type_raw": "4 x 4 Wood",
+        "height_ft": 8.0,
+        "foundation": "buried_direct",
+        "breakaway": "no",
+        "condition": "G",
+        "_cond_raw": "Good"
+       }
+      ],
+      "panels": [
+       {
+        "angle_deg": 0.0,
+        "description": "45 MPH",
+        "size": "30\" x 24\"",
+        "panel_condition": "G",
+        "sheet_condition": "G",
+        "damage": "None",
+        "sheeting_type": "HIP",
+        "_sheeting_raw": "Hex",
+        "back_panel": "Brown",
+        "mounting": "Bolted",
+        "reflectivity": "G"
+       }
+      ],
+      "source": "AECOM_XLSX_10S1_MP20-30",
+      "_source_row": 6
+     }
+    },
+    {
+     "id": "N3-SIG-003",
+     "ulid": "2AEAAKHCDC6SCHQTT8ABMC82XT",
+     "kind": "pt_sign",
+     "source": "AECOM_XLSX_10S1_MP20-30",
+     "status": "pending",
+     "geometry": {
+      "type": "Point",
+      "coordinates": [
+       -83.33990314744288,
+       35.57398048914653
+      ]
+     },
+     "sta_ft": 21568.1,
+     "sta": "215+68.08",
+     "attrs": {
+      "side": "L",
+      "eop_offset": 6.5,
+      "n_posts": 1.0,
+      "mp": 25.018,
+      "posts": [
+       {
+        "type": "WOOD_4X4",
+        "_type_raw": "4 x 4 Wood",
+        "height_ft": 10.0,
+        "foundation": "buried_direct",
+        "breakaway": "no",
+        "condition": "G",
+        "_cond_raw": "Good"
+       }
+      ],
+      "panels": [
+       {
+        "angle_deg": 0.0,
+        "description": "Winding Road",
+        "size": "30\"x 30\"",
+        "panel_condition": "F",
+        "sheet_condition": "F",
+        "damage": "Dented, Bent",
+        "sheeting_type": "HIP",
+        "_sheeting_raw": "Hex",
+        "back_panel": "Brown",
+        "mounting": "Bolted",
+        "reflectivity": "F",
+        "comment": "Sheeting peeling"
+       },
+       {
+        "angle_deg": 0.0,
+        "description": "35 M.P.H",
+        "size": "18\" x 18\"",
+        "panel_condition": "G",
+        "sheet_condition": "G",
+        "sheeting_type": "HIP",
+        "_sheeting_raw": "Hex",
+        "back_panel": "Brown",
+        "mounting": "Bolted",
+        "reflectivity": "F"
+       }
+      ],
+      "source": "AECOM_XLSX_10S1_MP20-30",
+      "_source_row": 7
+     }
+    },
+    {
+     "id": "N3-SIG-004",
+     "ulid": "19S2Q3FT7R3VR5CTYE6R8X26C1",
+     "kind": "pt_sign",
+     "source": "AECOM_XLSX_10S1_MP20-30",
+     "status": "pending",
+     "geometry": {
+      "type": "Point",
+      "coordinates": [
+       -83.33544025863496,
+       35.56796191277036
+      ]
+     },
+     "sta_ft": 24172.4,
+     "sta": "241+72.39",
+     "attrs": {
+      "side": "R",
+      "eop_offset": 8.0,
+      "n_posts": 2.0,
+      "mp": 25.515,
+      "posts": [
+       {
+        "type": "WOOD_4X6",
+        "_type_raw": "4 x 6 Wood",
+        "height_ft": 6.0,
+        "foundation": "buried_direct",
+        "condition": "E",
+        "_cond_raw": "Poor, Rotted broken"
+       }
+      ],
+      "panels": [
+       {
+        "angle_deg": 0.0,
+        "description": "Collins Creek Picnic Area ->",
+        "size": "22\" x 64\"",
+        "panel_condition": "P",
+        "sheet_condition": "P",
+        "damage": "Bullet holes",
+        "sheeting_type": "HIP",
+        "_sheeting_raw": "Hex",
+        "back_panel": "Brown",
+        "mounting": "Angled Brackets",
+        "reflectivity": "P",
+        "comment": "Corrugated Aluminum, Mildew on sheet"
+       }
+      ],
+      "source": "AECOM_XLSX_10S1_MP20-30",
+      "_source_row": 9
+     }
+    },
+    {
+     "id": "N3-SIG-005",
+     "ulid": "2T1BA7WXG16XHNK6KZ11SXNRQ8",
+     "kind": "pt_sign",
+     "source": "AECOM_XLSX_10S1_MP20-30",
+     "status": "pending",
+     "geometry": {
+      "type": "Point",
+      "coordinates": [
+       -83.33497185218134,
+       35.567487516203165
+      ]
+     },
+     "sta_ft": 24392.5,
+     "sta": "243+92.48",
+     "attrs": {
+      "side": "on",
+      "eop_offset": 0,
+      "n_posts": null,
+      "mp": 25.557,
+      "posts": [
+       {}
+      ],
+      "panels": [
+       {
+        "angle_deg": 90.0,
+        "description": "Picnic Area Closed",
+        "size": "19\" x 38\"",
+        "panel_condition": "F",
+        "sheet_condition": "P",
+        "damage": "Aluminum",
+        "sheeting_type": "HIP",
+        "_sheeting_raw": "Hex",
+        "back_panel": "Brown",
+        "mounting": "Mounted on Gate",
+        "reflectivity": "P",
+        "comment": "Sheeting peeling, On Collins Creek Picninc road"
+       }
+      ],
+      "source": "AECOM_XLSX_10S1_MP20-30",
+      "_source_row": 10
+     }
+    },
+    {
+     "id": "N3-SIG-006",
+     "ulid": "5VK8HAG8QBT3HH27GZNGTSABSH",
+     "kind": "pt_sign",
+     "source": "AECOM_XLSX_10S1_MP20-30",
+     "status": "pending",
+     "geometry": {
+      "type": "Point",
+      "coordinates": [
+       -83.33503199891248,
+       35.567454423785605
+      ]
+     },
+     "sta_ft": 24392.5,
+     "sta": "243+92.48",
+     "attrs": {
+      "side": "R",
+      "eop_offset": 6.5,
+      "n_posts": 1.0,
+      "mp": 25.557,
+      "posts": [
+       {
+        "type": "WOOD_4X4",
+        "_type_raw": "4 x 4 Wood",
+        "height_ft": 7.0,
+        "foundation": "concrete",
+        "breakaway": "no",
+        "condition": "G",
+        "_cond_raw": "Good"
+       }
+      ],
+      "panels": [
+       {
+        "angle_deg": 270.0,
+        "description": "STOP",
+        "size": "30\" x 30\"",
+        "panel_condition": "G",
+        "sheet_condition": "G",
+        "sheeting_type": "DG3",
+        "_sheeting_raw": "Diamond",
+        "back_panel": "Brown",
+        "mounting": "Bolted",
+        "reflectivity": "G",
+        "comment": "On Collins Creek Picnic Road"
+       }
+      ],
+      "source": "AECOM_XLSX_10S1_MP20-30",
+      "_source_row": 11
+     }
+    },
+    {
+     "id": "N3-SIG-007",
+     "ulid": "7AVPA9PAMHVZ0RC4ZZDWCAQRWG",
+     "kind": "pt_sign",
+     "source": "AECOM_XLSX_10S1_MP20-30",
+     "status": "pending",
+     "geometry": {
+      "type": "Point",
+      "coordinates": [
+       -83.33491450297257,
+       35.56751906943851
+      ]
+     },
+     "sta_ft": 24392.5,
+     "sta": "243+92.48",
+     "attrs": {
+      "side": "L",
+      "eop_offset": 5.5,
+      "n_posts": 2.0,
+      "mp": 25.557,
+      "posts": [
+       {
+        "type": "WOOD_4X6",
+        "_type_raw": "4 x 6 Wood",
+        "height_ft": 7.0,
+        "foundation": "buried_direct",
+        "condition": "G",
+        "_cond_raw": "Good"
+       }
+      ],
+      "panels": [
+       {
+        "angle_deg": 90.0,
+        "description": "<- Gatlinburg | Cherokee ->",
+        "size": "30\" x 57\"",
+        "panel_condition": "G",
+        "sheet_condition": "G",
+        "damage": "Rock",
+        "sheeting_type": "HIP",
+        "_sheeting_raw": "Hex",
+        "back_panel": "Brown",
+        "mounting": "Angled Brackets",
+        "reflectivity": "G",
+        "comment": "Corrugated Aluminum"
+       }
+      ],
+      "source": "AECOM_XLSX_10S1_MP20-30",
+      "_source_row": 12
+     }
+    },
+    {
+     "id": "N3-SIG-008",
+     "ulid": "4HZA16QCYAS7E7YM8QKVBN2BZ6",
+     "kind": "pt_sign",
+     "source": "AECOM_XLSX_10S1_MP20-30",
+     "status": "pending",
+     "geometry": {
+      "type": "Point",
+      "coordinates": [
+       -83.33470446007551,
+       35.56712384262886
+      ]
+     },
+     "sta_ft": 24544.4,
+     "sta": "245+44.44",
+     "attrs": {
+      "side": "R",
+      "eop_offset": 7.0,
+      "n_posts": 1.0,
+      "mp": 25.586,
+      "posts": [
+       {
+        "type": "WOOD_4X4",
+        "_type_raw": "4 x 4 Wood",
+        "height_ft": 7.0,
+        "foundation": "buried_direct",
+        "breakaway": "no",
+        "condition": "G",
+        "_cond_raw": "Good"
+       }
+      ],
+      "panels": [
+       {
+        "angle_deg": 0.0,
+        "description": "Speed limit 45",
+        "size": "30\" x 24\"",
+        "panel_condition": "G",
+        "sheet_condition": "P",
+        "damage": "Sheet peeling, mildew",
+        "sheeting_type": "DG3",
+        "_sheeting_raw": "Diamond",
+        "back_panel": "Brown",
+        "mounting": "Bolted",
+        "reflectivity": "P",
+        "comment": "Sheet peeling, mildew"
+       }
+      ],
+      "source": "AECOM_XLSX_10S1_MP20-30",
+      "_source_row": 13
+     }
+    },
+    {
+     "id": "N3-SIG-009",
+     "ulid": "2TZCCAD6KBW3TKDFTJ324ZB7KQ",
+     "kind": "pt_sign",
+     "source": "AECOM_XLSX_10S1_MP20-30",
+     "status": "pending",
+     "geometry": {
+      "type": "Point",
+      "coordinates": [
+       -83.33441316652609,
+       35.56687202957522
+      ]
+     },
+     "sta_ft": 24670.2,
+     "sta": "246+70.20",
+     "attrs": {
+      "side": "R",
+      "eop_offset": 6.0,
+      "n_posts": 1.0,
+      "mp": 25.61,
+      "posts": [
+       {
+        "type": "WOOD_4X4",
+        "_type_raw": "4 x 4 Wood",
+        "height_ft": 8.0,
+        "foundation": "buried_direct",
+        "breakaway": "no",
+        "condition": "G",
+        "_cond_raw": "Good"
+       }
+      ],
+      "panels": [
+       {
+        "angle_deg": 0.0,
+        "description": "Winding Road",
+        "size": "30\" x 30\"",
+        "panel_condition": "F",
+        "sheet_condition": "P",
+        "damage": "Rock",
+        "sheeting_type": "DG3",
+        "_sheeting_raw": "Diamond",
+        "back_panel": "Brown",
+        "mounting": "Bolted",
+        "reflectivity": "P",
+        "comment": "Sheet peeling, mildew"
+       }
+      ],
+      "source": "AECOM_XLSX_10S1_MP20-30",
+      "_source_row": 14
+     }
+    },
+    {
+     "id": "N3-SIG-010",
+     "ulid": "1302QXTVQBWSGP502PZ293EDVW",
+     "kind": "pt_sign",
+     "source": "AECOM_XLSX_10S1_MP20-30",
+     "status": "pending",
+     "geometry": {
+      "type": "Point",
+      "coordinates": [
+       -83.33382741598636,
+       35.56653132739204
+      ]
+     },
+     "sta_ft": 24879.8,
+     "sta": "248+79.80",
+     "attrs": {
+      "side": "L",
+      "eop_offset": 5.5,
+      "n_posts": 2.0,
+      "mp": 25.65,
+      "posts": [
+       {
+        "type": "WOOD_4X6",
+        "_type_raw": "4 x 6 Wood",
+        "height_ft": 6.0,
+        "foundation": "buried_direct",
+        "condition": "G",
+        "_cond_raw": "Good"
+       }
+      ],
+      "panels": [
+       {
+        "angle_deg": 0.0,
+        "description": "<- Collins Creek Picnic Area",
+        "size": "22\" X 64\"",
+        "panel_condition": "P",
+        "sheet_condition": "P",
+        "damage": "bent, rock damage",
+        "sheeting_type": "HIP",
+        "_sheeting_raw": "Hex",
+        "back_panel": "Brown",
+        "mounting": "Angled Brackets",
+        "reflectivity": "P",
+        "comment": "Sheet peeling, mildew"
+       }
+      ],
+      "source": "AECOM_XLSX_10S1_MP20-30",
+      "_source_row": 15
+     }
+    },
+    {
+     "id": "N3-SIG-011",
+     "ulid": "3JZB72A98SBWAMRXCEQ381QT8D",
+     "kind": "pt_sign",
+     "source": "AECOM_XLSX_10S1_MP20-30",
+     "status": "pending",
+     "geometry": {
+      "type": "Point",
+      "coordinates": [
+       -83.33323329209173,
+       35.56581118357226
+      ]
+     },
+     "sta_ft": 25189.0,
+     "sta": "251+88.97",
+     "attrs": {
+      "side": "L",
+      "eop_offset": 7.5,
+      "n_posts": 1.0,
+      "mp": 25.709,
+      "posts": [
+       {
+        "type": "WOOD_4X4",
+        "_type_raw": "4 x 4 Wood",
+        "height_ft": 9.0,
+        "foundation": "buried_direct",
+        "breakaway": "no",
+        "condition": "G",
+        "_cond_raw": "Good"
+       }
+      ],
+      "panels": [
+       {
+        "angle_deg": 0.0,
+        "description": "Congested Area",
+        "size": "36\" x 36\"",
+        "panel_condition": "G",
+        "sheet_condition": "P",
+        "damage": "Sheet Peeling",
+        "sheeting_type": "DG3",
+        "_sheeting_raw": "Diamond",
+        "back_panel": "Brown",
+        "mounting": "Bolted",
+        "reflectivity": "F",
+        "comment": "Consider removal? No corresponding sing noticed on the SB"
+       },
+       {
+        "angle_deg": 0.0,
+        "description": "25 MPH",
+        "size": "18\" x 18\"",
+        "panel_condition": "G",
+        "sheet_condition": "F",
+        "sheeting_type": "HIP",
+        "_sheeting_raw": "Hex",
+        "back_panel": "Brown",
+        "mounting": "Bolted",
+        "reflectivity": "F"
+       }
+      ],
+      "source": "AECOM_XLSX_10S1_MP20-30",
+      "_source_row": 16
+     }
+    },
+    {
+     "id": "N3-SIG-012",
+     "ulid": "3JQ4Z1PQQ6YPXZY6JFMVVJR6A2",
+     "kind": "pt_sign",
+     "source": "AECOM_XLSX_10S1_MP20-30",
+     "status": "pending",
+     "geometry": {
+      "type": "Point",
+      "coordinates": [
+       -83.32906809256103,
+       35.56265386665397
+      ]
+     },
+     "sta_ft": 27148.7,
+     "sta": "271+48.75",
+     "attrs": {
+      "side": "L",
+      "eop_offset": 7.0,
+      "n_posts": 1.0,
+      "mp": 26.083,
+      "posts": [
+       {
+        "type": "WOOD_4X4",
+        "_type_raw": "4 x 4 Wood",
+        "height_ft": 8.0,
+        "foundation": "buried_direct",
+        "breakaway": "no",
+        "condition": "E",
+        "_cond_raw": "Fair, Leaning"
+       }
+      ],
+      "panels": [
+       {
+        "angle_deg": 0.0,
+        "description": "Winding Road",
+        "size": "30\" x 30\"",
+        "panel_condition": "F",
+        "sheet_condition": "G",
+        "damage": "Rock dents",
+        "sheeting_type": "DG3",
+        "_sheeting_raw": "Diamond",
+        "back_panel": "Brown",
+        "mounting": "Bolted",
+        "reflectivity": "F"
+       }
+      ],
+      "source": "AECOM_XLSX_10S1_MP20-30",
+      "_source_row": 18
+     }
+    },
+    {
+     "id": "N3-SIG-013",
+     "ulid": "7RWGCH80SEJMBJYG2F5A52DESE",
+     "kind": "pt_sign",
+     "source": "AECOM_XLSX_10S1_MP20-30",
+     "status": "pending",
+     "geometry": {
+      "type": "Point",
+      "coordinates": [
+       -83.32795404833573,
+       35.56173199004308
+      ]
+     },
+     "sta_ft": 27620.4,
+     "sta": "276+20.35",
+     "attrs": {
+      "side": "L",
+      "eop_offset": 6.5,
+      "n_posts": 1.0,
+      "mp": 26.173,
+      "posts": [
+       {
+        "type": "WOOD_4X4",
+        "_type_raw": "4 x 4 Wood",
+        "height_ft": 8.0,
+        "foundation": "buried_direct",
+        "breakaway": "no",
+        "condition": "F",
+        "_cond_raw": "Fair"
+       }
+      ],
+      "panels": [
+       {
+        "angle_deg": 0.0,
+        "description": "Watch for Ice",
+        "size": "30\" x 30\"",
+        "panel_condition": "F",
+        "sheet_condition": "F",
+        "damage": "scraped",
+        "sheeting_type": "DG3",
+        "_sheeting_raw": "Diamond",
+        "back_panel": "Brown",
+        "mounting": "Bolted",
+        "reflectivity": "F",
+        "comment": "Hinged Panel (closed during Summer)"
+       }
+      ],
+      "source": "AECOM_XLSX_10S1_MP20-30",
+      "_source_row": 19
+     }
+    },
+    {
+     "id": "N3-SIG-014",
+     "ulid": "4QZKARVQV6MM2JPMVRX9FC10MY",
+     "kind": "pt_sign",
+     "source": "AECOM_XLSX_10S1_MP20-30",
+     "status": "pending",
+     "geometry": {
+      "type": "Point",
+      "coordinates": [
+       -83.31448669977975,
+       35.555595532519646
+      ]
+     },
+     "sta_ft": 32252.6,
+     "sta": "322+52.57",
+     "attrs": {
+      "side": "R",
+      "eop_offset": 5.5,
+      "n_posts": 1.0,
+      "mp": 27.057,
+      "posts": [
+       {
+        "type": "WOOD_4X4",
+        "_type_raw": "4 x 4 Wood",
+        "height_ft": 7.0,
+        "foundation": "buried_direct",
+        "breakaway": "no",
+        "condition": "E",
+        "_cond_raw": "Fair, Leaning"
+       }
+      ],
+      "panels": [
+       {
+        "angle_deg": 0.0,
+        "description": "N/A",
+        "size": "36\" x 36\"",
+        "damage": "N/A",
+        "sheeting_type": "DG3",
+        "_sheeting_raw": "Diamond",
+        "back_panel": "Brown",
+        "mounting": "Bolted",
+        "comment": "Hinged Panel (closed during Summer) (locked) One hinge damaged"
+       }
+      ],
+      "source": "AECOM_XLSX_10S1_MP20-30",
+      "_source_row": 20
+     }
+    },
+    {
+     "id": "N3-SIG-015",
+     "ulid": "4KF9266CZ18DXJB488RPVN0TV4",
+     "kind": "pt_sign",
+     "source": "AECOM_XLSX_10S1_MP20-30",
+     "status": "pending",
+     "geometry": {
+      "type": "Point",
+      "coordinates": [
+       -83.31351461932655,
+       35.555382190992106
+      ]
+     },
+     "sta_ft": 32551.2,
+     "sta": "325+51.25",
+     "attrs": {
+      "side": "R",
+      "eop_offset": 6.5,
+      "n_posts": 1.0,
+      "mp": 27.114,
+      "posts": [
+       {
+        "type": "WOOD_4X4",
+        "_type_raw": "4 x 4 Wood",
+        "height_ft": 8.0,
+        "foundation": "buried_direct",
+        "breakaway": "no",
+        "condition": "F",
+        "_cond_raw": "Fair"
+       }
+      ],
+      "panels": [
+       {
+        "angle_deg": 0.0,
+        "description": "Right turn with left side road",
+        "size": "30\" x 30\"",
+        "panel_condition": "F",
+        "sheet_condition": "F",
+        "damage": "Dented",
+        "sheeting_type": "DG3",
+        "_sheeting_raw": "Diamond",
+        "back_panel": "Brown",
+        "mounting": "Bolted",
+        "reflectivity": "F"
+       }
+      ],
+      "source": "AECOM_XLSX_10S1_MP20-30",
+      "_source_row": 21
+     }
+    },
+    {
+     "id": "N3-SIG-016",
+     "ulid": "7W9FJWGDHYB4MY5G4PAQ0ZV4W7",
+     "kind": "pt_sign",
+     "source": "AECOM_XLSX_10S1_MP20-30",
+     "status": "pending",
+     "geometry": {
+      "type": "Point",
+      "coordinates": [
+       -83.31271171482037,
+       35.555211594211826
+      ]
+     },
+     "sta_ft": 32797.5,
+     "sta": "327+97.53",
+     "attrs": {
+      "side": "R",
+      "eop_offset": 6.0,
+      "n_posts": 1.0,
+      "mp": 27.161,
+      "posts": [
+       {
+        "type": "WOOD_4X4",
+        "_type_raw": "4 x 4 Wood",
+        "height_ft": 7.0,
+        "foundation": "buried_direct",
+        "breakaway": "no",
+        "condition": "G",
+        "_cond_raw": "Good"
+       }
+      ],
+      "panels": [
+       {
+        "angle_deg": 0.0,
+        "description": "Campground to the left",
+        "size": "18\" x 24\"",
+        "panel_condition": "P",
+        "sheet_condition": "P",
+        "damage": "Panel Bent, Sheeting peeling, mildew",
+        "sheeting_type": "HIP",
+        "_sheeting_raw": "Hex",
+        "back_panel": "Brown",
+        "mounting": "Bolted",
+        "reflectivity": "P"
+       }
+      ],
+      "source": "AECOM_XLSX_10S1_MP20-30",
+      "_source_row": 22
+     }
+    },
+    {
+     "id": "N3-SIG-017",
+     "ulid": "03BYDWD16VHEBE0XPQ5PW1DB8H",
+     "kind": "pt_sign",
+     "source": "AECOM_XLSX_10S1_MP20-30",
+     "status": "pending",
+     "geometry": {
+      "type": "Point",
+      "coordinates": [
+       -83.31032604684222,
+       35.55404883565915
+      ]
+     },
+     "sta_ft": 33667.4,
+     "sta": "336+67.38",
+     "attrs": {
+      "side": "R",
+      "eop_offset": 9.0,
+      "n_posts": 2.0,
+      "mp": 27.327,
+      "posts": [
+       {
+        "type": "WOOD_4X6",
+        "_type_raw": "4 x 6 Wood",
+        "height_ft": 7.0,
+        "foundation": "buried_direct",
+        "condition": "E",
+        "_cond_raw": "Poor, rotted"
+       }
+      ],
+      "panels": [
+       {
+        "angle_deg": 0.0,
+        "description": "<- Smokemont Campground Riding Stables",
+        "size": "31\" x 60\"",
+        "panel_condition": "F",
+        "sheet_condition": "F",
+        "damage": "Panel Dented, Sheet Mildew",
+        "sheeting_type": "HIP",
+        "_sheeting_raw": "Hex",
+        "back_panel": "Brown",
+        "mounting": "Angled Brackets",
+        "reflectivity": "F",
+        "comment": "Corrugated Aluminum"
+       },
+       {
+        "angle_deg": 0.0,
+        "description": "Campground Full",
+        "size": "22\" x 54\"",
+        "panel_condition": "G",
+        "sheet_condition": "G",
+        "sheeting_type": "HIP",
+        "_sheeting_raw": "Hex",
+        "back_panel": "Brown",
+        "mounting": "Angled Brackets",
+        "reflectivity": "G",
+        "comment": "Piano Hinged, Corrugated AL"
+       }
+      ],
+      "source": "AECOM_XLSX_10S1_MP20-30",
+      "_source_row": 23
+     }
+    },
+    {
+     "id": "N3-SIG-018",
+     "ulid": "6WSPA3GPM3GHYG54RYGW9DNKSK",
+     "kind": "pt_sign",
+     "source": "AECOM_XLSX_10S1_MP20-30",
+     "status": "pending",
+     "geometry": {
+      "type": "Point",
+      "coordinates": [
+       -83.3100694771562,
+       35.55378982569176
+      ]
+     },
+     "sta_ft": 33787.9,
+     "sta": "337+87.90",
+     "attrs": {
+      "side": "on",
+      "eop_offset": 0,
+      "n_posts": null,
+      "mp": 27.35,
+      "posts": [
+       {}
+      ],
+      "panels": [
+       {
+        "angle_deg": 180.0,
+        "description": "CAUTION | Hazardous conditions ahead",
+        "size": "18\" x 26\"",
+        "panel_condition": "G",
+        "sheet_condition": "G",
+        "sheeting_type": "DG3",
+        "_sheeting_raw": "Diamond",
+        "back_panel": "Plain",
+        "mounting": "Mounted on Gate",
+        "reflectivity": "G",
+        "comment": "Black text on yellow background (Caution); Black on white - the rest"
+       }
+      ],
+      "source": "AECOM_XLSX_10S1_MP20-30",
+      "_source_row": 25
+     }
+    },
+    {
+     "id": "N3-SIG-019",
+     "ulid": "24HQ5RRNSZ94SBPG97C98GVHYA",
+     "kind": "pt_sign",
+     "source": "AECOM_XLSX_10S1_MP20-30",
+     "status": "pending",
+     "geometry": {
+      "type": "Point",
+      "coordinates": [
+       -83.3100694771562,
+       35.55378982569176
+      ]
+     },
+     "sta_ft": 33787.9,
+     "sta": "337+87.90",
+     "attrs": {
+      "side": "on",
+      "eop_offset": 0,
+      "n_posts": null,
+      "mp": 27.35,
+      "posts": [
+       {}
+      ],
+      "panels": [
+       {
+        "angle_deg": 0.0,
+        "description": "ROAD CLOSED",
+        "size": "24\" x 48\"",
+        "panel_condition": "F",
+        "sheet_condition": "F",
+        "damage": "Bent Panel",
+        "sheeting_type": "DG3",
+        "_sheeting_raw": "Diamond",
+        "back_panel": "Plain",
+        "mounting": "Mounted on Gate",
+        "reflectivity": "P"
+       }
+      ],
+      "source": "AECOM_XLSX_10S1_MP20-30",
+      "_source_row": 26
+     }
+    },
+    {
+     "id": "N3-SIG-020",
+     "ulid": "7GDH4FM5TKHF2KCEAGQ9PJC810",
+     "kind": "pt_sign",
+     "source": "AECOM_XLSX_10S1_MP20-30",
+     "status": "pending",
+     "geometry": {
+      "type": "Point",
+      "coordinates": [
+       -83.3100694771562,
+       35.55378982569176
+      ]
+     },
+     "sta_ft": 33787.9,
+     "sta": "337+87.90",
+     "attrs": {
+      "side": "on",
+      "eop_offset": 0,
+      "n_posts": null,
+      "mp": 27.35,
+      "posts": [
+       {}
+      ],
+      "panels": [
+       {
+        "angle_deg": 0.0,
+        "description": "ICE AND SNOW",
+        "size": "18\" x 30\"",
+        "panel_condition": "F",
+        "sheet_condition": "P",
+        "damage": "Sheet peeling",
+        "sheeting_type": "DG3",
+        "_sheeting_raw": "Diamond",
+        "back_panel": "Plain",
+        "mounting": "Mounted on Gate",
+        "reflectivity": "F"
+       }
+      ],
+      "source": "AECOM_XLSX_10S1_MP20-30",
+      "_source_row": 27
+     }
+    },
+    {
+     "id": "N3-SIG-021",
+     "ulid": "3WHWWM7RH1V7VG8GV2AD0T5B5C",
+     "kind": "pt_sign",
+     "source": "AECOM_XLSX_10S1_MP20-30",
+     "status": "pending",
+     "geometry": {
+      "type": "Point",
+      "coordinates": [
+       -83.30993423726083,
+       35.553045267872
+      ]
+     },
+     "sta_ft": 34065.6,
+     "sta": "340+65.63",
+     "attrs": {
+      "side": "R",
+      "eop_offset": 14.0,
+      "n_posts": 2.0,
+      "mp": 27.403,
+      "posts": [
+       {
+        "type": "WOOD_4X6",
+        "_type_raw": "4 x 6 Wood",
+        "height_ft": 6.0,
+        "foundation": "buried_direct",
+        "condition": "G",
+        "_cond_raw": "Good"
+       }
+      ],
+      "panels": [
+       {
+        "angle_deg": 90.0,
+        "description": "<- Cherokee | Gatlinburg ->",
+        "size": "30\" x 57\"",
+        "panel_condition": "G",
+        "sheet_condition": "F",
+        "damage": "Scuffing in the corner",
+        "sheeting_type": "HIP",
+        "_sheeting_raw": "Hex",
+        "back_panel": "Brown",
+        "mounting": "Angled Brackets",
+        "reflectivity": "G",
+        "comment": "Corrugated AL"
+       }
+      ],
+      "source": "AECOM_XLSX_10S1_MP20-30",
+      "_source_row": 28
+     }
+    },
+    {
+     "id": "N3-SIG-022",
+     "ulid": "2SKAXG86CQ6T9YRHBMS3YQPS72",
+     "kind": "pt_sign",
+     "source": "AECOM_XLSX_10S1_MP20-30",
+     "status": "pending",
+     "geometry": {
+      "type": "Point",
+      "coordinates": [
+       -83.30979541997654,
+       35.55313293914747
+      ]
+     },
+     "sta_ft": 34039.4,
+     "sta": "340+39.43",
+     "attrs": {
+      "side": "L",
+      "eop_offset": 1.0,
+      "n_posts": 1.0,
+      "mp": 27.398,
+      "posts": [
+       {
+        "type": "WOOD_4X4",
+        "_type_raw": "4 x 4 Wood",
+        "height_ft": 8.0,
+        "foundation": "concrete",
+        "breakaway": "no",
+        "condition": "G",
+        "_cond_raw": "Good"
+       }
+      ],
+      "panels": [
+       {
+        "angle_deg": 270.0,
+        "description": "Stop",
+        "size": "30\" x 30\"",
+        "panel_condition": "E",
+        "sheet_condition": "E",
+        "sheeting_type": "DG3",
+        "_sheeting_raw": "Diamond",
+        "back_panel": "Brown",
+        "mounting": "Bolted",
+        "reflectivity": "E",
+        "comment": "ON Smokemont Road, 11' from 10S(1) EOP"
+       }
+      ],
+      "source": "AECOM_XLSX_10S1_MP20-30",
+      "_source_row": 29
+     }
+    },
+    {
+     "id": "N3-SIG-023",
+     "ulid": "1KZ4Z8CXAFT3ZGJWYMR4WXF104",
+     "kind": "pt_sign",
+     "source": "AECOM_XLSX_10S1_MP20-30",
+     "status": "pending",
+     "geometry": {
+      "type": "Point",
+      "coordinates": [
+       -83.30978203370807,
+       35.55313440536338
+      ]
+     },
+     "sta_ft": 34039.4,
+     "sta": "340+39.43",
+     "attrs": {
+      "side": "L",
+      "eop_offset": 5.0,
+      "n_posts": 1.0,
+      "mp": 27.398,
+      "posts": [
+       {
+        "_type_raw": "4\" Square painted steel",
+        "height_ft": 8.0,
+        "foundation": "concrete",
+        "breakaway": "no",
+        "condition": "G",
+        "_cond_raw": "Good"
+       }
+      ],
+      "panels": [
+       {
+        "angle_deg": 0.0,
+        "description": "Warning - Road closed",
+        "size": "48\" x 30\"",
+        "panel_condition": "G",
+        "sheet_condition": "G",
+        "sheeting_type": "DG3",
+        "_sheeting_raw": "Diamond",
+        "back_panel": "Brown",
+        "mounting": "Bolted",
+        "reflectivity": "G",
+        "comment": "Piano Hinged, 17' from 10S(1) EOP, black text on orange"
+       }
+      ],
+      "source": "AECOM_XLSX_10S1_MP20-30",
+      "_source_row": 30
+     }
+    },
+    {
+     "id": "N3-SIG-024",
+     "ulid": "11PCF2R2F33HKE8DG0XDVX9PCR",
+     "kind": "pt_sign",
+     "source": "AECOM_XLSX_10S1_MP20-30",
+     "status": "pending",
+     "geometry": {
+      "type": "Point",
+      "coordinates": [
+       -83.30979108684626,
+       35.55230766821943
+      ]
+     },
+     "sta_ft": 34338.1,
+     "sta": "343+38.11",
+     "attrs": {
+      "side": "R",
+      "eop_offset": 6.5,
+      "n_posts": 2.0,
+      "mp": 27.455,
+      "posts": [
+       {
+        "type": "WOOD_4X6",
+        "_type_raw": "4 x 6 Wood",
+        "height_ft": 7.0,
+        "foundation": "buried_direct",
+        "condition": "G",
+        "_cond_raw": "Good"
+       }
+      ],
+      "panels": [
+       {
+        "angle_deg": 0.0,
+        "description": "Smokemont Campground Riding Stables ->",
+        "size": "31\" x 60\"",
+        "panel_condition": "F",
+        "sheet_condition": "P",
+        "damage": "Panel rock damaged",
+        "sheeting_type": "HIP",
+        "_sheeting_raw": "Hex",
+        "back_panel": "Brown",
+        "mounting": "Angled Brackets",
+        "reflectivity": "F",
+        "comment": "Corrugated Aluminum"
+       },
+       {
+        "angle_deg": 0.0,
+        "description": "Campground Full",
+        "size": "22\" x 54\"",
+        "panel_condition": "F",
+        "sheet_condition": "G",
+        "damage": "Panel rock damaged, bent corner",
+        "sheeting_type": "HIP",
+        "_sheeting_raw": "Hex",
+        "back_panel": "Brown",
+        "mounting": "Angled Brackets",
+        "reflectivity": "G",
+        "comment": "Piano Hinged, Corrugated AL"
+       }
+      ],
+      "source": "AECOM_XLSX_10S1_MP20-30",
+      "_source_row": 31
+     }
+    },
+    {
+     "id": "N3-SIG-025",
+     "ulid": "575XGPEYXQD4JYRCSPXRNS1BXN",
+     "kind": "pt_sign",
+     "source": "AECOM_XLSX_10S1_MP20-30",
+     "status": "pending",
+     "geometry": {
+      "type": "Point",
+      "coordinates": [
+       -83.30974143475336,
+       35.55203799594691
+      ]
+     },
+     "sta_ft": 34437.7,
+     "sta": "344+37.67",
+     "attrs": {
+      "side": "R",
+      "eop_offset": 4.0,
+      "n_posts": 1.0,
+      "mp": 27.474,
+      "posts": [
+       {
+        "type": "WOOD_4X4",
+        "_type_raw": "4 x 4 Wood",
+        "height_ft": 8.0,
+        "foundation": "buried_direct",
+        "condition": "F",
+        "_cond_raw": "fair"
+       }
+      ],
+      "panels": [
+       {
+        "angle_deg": 0.0,
+        "description": "Speed limit 45",
+        "size": "30\" x 24\"",
+        "panel_condition": "G",
+        "sheet_condition": "F",
+        "damage": "mildew on sheet",
+        "sheeting_type": "HIP",
+        "_sheeting_raw": "Hex",
+        "back_panel": "Brown",
+        "mounting": "Bolted",
+        "reflectivity": "G"
+       }
+      ],
+      "source": "AECOM_XLSX_10S1_MP20-30",
+      "_source_row": 33
+     }
+    },
+    {
+     "id": "N3-SIG-026",
+     "ulid": "34EXTQQQA79SF8R6Q8TH9BD1MT",
+     "kind": "pt_sign",
+     "source": "AECOM_XLSX_10S1_MP20-30",
+     "status": "pending",
+     "geometry": {
+      "type": "Point",
+      "coordinates": [
+       -83.30945798317133,
+       35.55103883235589
+      ]
+     },
+     "sta_ft": 34809.7,
+     "sta": "348+09.72",
+     "attrs": {
+      "side": "L",
+      "eop_offset": 4.0,
+      "n_posts": 2.0,
+      "mp": 27.545,
+      "posts": [
+       {
+        "type": "WOOD_4X6",
+        "_type_raw": "4 x 6 Wood",
+        "height_ft": 6.0,
+        "foundation": "buried_direct"
+       }
+      ],
+      "panels": [
+       {
+        "angle_deg": 0.0,
+        "description": "NO THROUGH TRAFFIC",
+        "size": "23\" X 80\"",
+        "panel_condition": "F",
+        "sheet_condition": "G",
+        "damage": "rock dent",
+        "sheeting_type": "HIP",
+        "_sheeting_raw": "Hex",
+        "back_panel": "Brown",
+        "mounting": "Angled Brackets",
+        "reflectivity": "G",
+        "comment": "Attached to a 12\" guiderail post (right), red on white"
+       },
+       {
+        "angle_deg": 0.0,
+        "description": "ROAD CLOSED 13 MILES AHEAD",
+        "size": "23\" X 80\"",
+        "panel_condition": "G",
+        "sheet_condition": "G",
+        "sheeting_type": "HIP",
+        "_sheeting_raw": "Hex",
+        "back_panel": "Brown",
+        "mounting": "Angled Brackets",
+        "reflectivity": "G",
+        "comment": "PIANO HINGED TO THE TOP PANEL, black letters on white sheet"
+       },
+       {
+        "angle_deg": 0.0,
+        "description": "500 FEET",
+        "size": "8\" X 30\"",
+        "panel_condition": "G",
+        "sheet_condition": "G",
+        "sheeting_type": "HIP",
+        "_sheeting_raw": "Hex",
+        "back_panel": "N/A",
+        "mounting": "Bolted",
+        "reflectivity": "G",
+        "comment": "Aluminum panel bolted on top of the \"13 Miles\" text"
+       }
+      ],
+      "source": "AECOM_XLSX_10S1_MP20-30",
+      "_source_row": 34
+     }
+    },
+    {
+     "id": "N3-SIG-027",
+     "ulid": "711V2TEXFPDG83N9E2S7EBVZS1",
+     "kind": "pt_sign",
+     "source": "AECOM_XLSX_10S1_MP20-30",
+     "status": "pending",
+     "geometry": {
+      "type": "Point",
+      "coordinates": [
+       -83.30932493208661,
+       35.550169773496435
+      ]
+     },
+     "sta_ft": 35129.4,
+     "sta": "351+29.36",
+     "attrs": {
+      "side": "L",
+      "eop_offset": 4.5,
+      "n_posts": 1.0,
+      "mp": 27.606,
+      "posts": [
+       {
+        "type": "WOOD_4X4",
+        "_type_raw": "4 x 4 Wood",
+        "height_ft": 7.0,
+        "foundation": "buried_direct",
+        "breakaway": "no",
+        "condition": "G",
+        "_cond_raw": "Good"
+       }
+      ],
+      "panels": [
+       {
+        "angle_deg": 0.0,
+        "description": "BARICADE AHEAD",
+        "size": "36\" x 36\"",
+        "panel_condition": "G",
+        "sheet_condition": "G",
+        "damage": "N/A",
+        "sheeting_type": "DG3",
+        "_sheeting_raw": "Diamond",
+        "back_panel": "Brown",
+        "mounting": "Bolted",
+        "reflectivity": "G",
+        "comment": "Hinged Panel (closed during Summer) (locked) One hinge damaged"
+       }
+      ],
+      "source": "AECOM_XLSX_10S1_MP20-30",
+      "_source_row": 37
+     }
+    },
+    {
+     "id": "N3-SIG-028",
+     "ulid": "155YP23BMCW93C3ZTZ678A4X3S",
+     "kind": "pt_sign",
+     "source": "AECOM_XLSX_10S1_MP20-30",
+     "status": "pending",
+     "geometry": {
+      "type": "Point",
+      "coordinates": [
+       -83.30922211892401,
+       35.549557811566736
+      ]
+     },
+     "sta_ft": 35354.7,
+     "sta": "353+54.68",
+     "attrs": {
+      "side": "L",
+      "eop_offset": 6.0,
+      "n_posts": 1.0,
+      "mp": 27.649,
+      "posts": [
+       {
+        "type": "WOOD_4X4",
+        "_type_raw": "4 x 4 Wood",
+        "height_ft": 7.0,
+        "foundation": "buried_direct",
+        "breakaway": "no",
+        "condition": "G",
+        "_cond_raw": "Good"
+       }
+      ],
+      "panels": [
+       {
+        "angle_deg": 0.0,
+        "description": "Campground to the right",
+        "size": "18\" x 24\"",
+        "panel_condition": "G",
+        "sheet_condition": "F",
+        "damage": "sheeting chipped",
+        "sheeting_type": "HIP",
+        "_sheeting_raw": "Hex",
+        "back_panel": "Brown",
+        "mounting": "Bolted",
+        "reflectivity": "G"
+       }
+      ],
+      "source": "AECOM_XLSX_10S1_MP20-30",
+      "_source_row": 38
+     }
+    },
+    {
+     "id": "N3-SIG-029",
+     "ulid": "2NP97C01G7Y8JGFGMH9Y8VYTJA",
+     "kind": "pt_sign",
+     "source": "AECOM_XLSX_10S1_MP20-30",
+     "status": "pending",
+     "geometry": {
+      "type": "Point",
+      "coordinates": [
+       -83.3041515142124,
+       35.54484602286659
+      ]
+     },
+     "sta_ft": 37707.5,
+     "sta": "377+07.47",
+     "attrs": {
+      "side": "R",
+      "eop_offset": 7.0,
+      "n_posts": 1.0,
+      "mp": 28.098,
+      "posts": [
+       {
+        "type": "WOOD_4X4",
+        "_type_raw": "4 x 4 Wood",
+        "height_ft": 9.0,
+        "foundation": "buried_direct",
+        "breakaway": "no",
+        "condition": "G",
+        "_cond_raw": "Good"
+       }
+      ],
+      "panels": [
+       {
+        "angle_deg": 0.0,
+        "description": "Winding Road",
+        "size": "30\" x 30\"",
+        "panel_condition": "P",
+        "sheet_condition": "P",
+        "damage": "bullet hole, peeling sheeting",
+        "sheeting_type": "DG3",
+        "_sheeting_raw": "Diamond",
+        "back_panel": "Brown",
+        "mounting": "Bolted",
+        "reflectivity": "P"
+       }
+      ],
+      "source": "AECOM_XLSX_10S1_MP20-30",
+      "_source_row": 39
+     }
+    },
+    {
+     "id": "N3-SIG-030",
+     "ulid": "2B6Q34YENGT5FHKZTJ0NJGMQP4",
+     "kind": "pt_sign",
+     "source": "AECOM_XLSX_10S1_MP20-30",
+     "status": "pending",
+     "geometry": {
+      "type": "Point",
+      "coordinates": [
+       -83.30073324086337,
+       35.54335876001923
+      ]
+     },
+     "sta_ft": 38870.8,
+     "sta": "388+70.76",
+     "attrs": {
+      "side": "L",
+      "eop_offset": 7.0,
+      "n_posts": 1.0,
+      "mp": 28.32,
+      "posts": [
+       {
+        "type": "WOOD_4X4",
+        "_type_raw": "4 x 4 Wood",
+        "height_ft": 8.0,
+        "foundation": "buried_direct",
+        "breakaway": "no",
+        "condition": "G",
+        "_cond_raw": "Good"
+       }
+      ],
+      "panels": [
+       {
+        "angle_deg": 0.0,
+        "description": "Watch for fallen rock",
+        "size": "30\" x 30\"",
+        "panel_condition": "P",
+        "sheet_condition": "F",
+        "damage": "Bullet holes",
+        "sheeting_type": "DG3",
+        "_sheeting_raw": "Diamond",
+        "back_panel": "Brown",
+        "mounting": "Bolted"
+       },
+       {
+        "angle_deg": 0.0,
+        "description": "BLANK YELLOW PANEL",
+        "size": "18\" x 18\"",
+        "panel_condition": "F",
+        "sheet_condition": "P",
+        "damage": "Cracked sheeting",
+        "sheeting_type": "DG3",
+        "_sheeting_raw": "Diamond",
+        "back_panel": "Brown",
+        "mounting": "Bolted",
+        "reflectivity": "F",
+        "comment": "Winged to the main panel acting as flags on either side (attached with aluminum angles)"
+       },
+       {
+        "angle_deg": 0.0,
+        "description": "BLANK YELLOW PANEL",
+        "size": "18\" x 18\"",
+        "panel_condition": "F",
+        "sheet_condition": "P",
+        "damage": "Cracked sheeting",
+        "sheeting_type": "DG3",
+        "_sheeting_raw": "Diamond",
+        "back_panel": "Brown",
+        "mounting": "Bolted",
+        "reflectivity": "F",
+        "comment": "Winged to the main panel acting as flags on either side (attached with aluminum angles)"
+       }
+      ],
+      "source": "AECOM_XLSX_10S1_MP20-30",
+      "_source_row": 40
+     }
+    },
+    {
+     "id": "N3-SIG-031",
+     "ulid": "1J0YDZ1ZYB8XGXMJ31RXW3CY87",
+     "kind": "pt_sign",
+     "source": "AECOM_XLSX_10S1_MP20-30",
+     "status": "pending",
+     "geometry": {
+      "type": "Point",
+      "coordinates": [
+       -83.3002649394254,
+       35.542856400458454
+      ]
+     },
+     "sta_ft": 39096.1,
+     "sta": "390+96.08",
+     "attrs": {
+      "side": "R",
+      "eop_offset": 7.0,
+      "n_posts": 1.0,
+      "mp": 28.363,
+      "posts": [
+       {
+        "type": "WOOD_4X4",
+        "_type_raw": "4 x 4 Wood",
+        "height_ft": 8.0,
+        "foundation": "buried_direct",
+        "breakaway": "no",
+        "condition": "G",
+        "_cond_raw": "Good"
+       }
+      ],
+      "panels": [
+       {
+        "angle_deg": 0.0,
+        "description": "Right turn with left side road",
+        "size": "30\" x 30\"",
+        "panel_condition": "P",
+        "sheet_condition": "P",
+        "damage": "Rock dents, sheets peeling",
+        "sheeting_type": "DG3",
+        "_sheeting_raw": "Diamond",
+        "back_panel": "Brown",
+        "mounting": "Bolted",
+        "reflectivity": "F"
+       },
+       {
+        "angle_deg": 0.0,
+        "description": "35 M.P.H",
+        "size": "18\" x 18\"",
+        "panel_condition": "G",
+        "sheet_condition": "P",
+        "damage": "Pealing",
+        "sheeting_type": "HIP",
+        "_sheeting_raw": "Hex",
+        "back_panel": "Brown",
+        "mounting": "Bolted",
+        "reflectivity": "F"
+       }
+      ],
+      "source": "AECOM_XLSX_10S1_MP20-30",
+      "_source_row": 43
+     }
+    },
+    {
+     "id": "N3-SIG-032",
+     "ulid": "05XG1E0AE5D8RAMQ9F05P74TJE",
+     "kind": "pt_sign",
+     "source": "AECOM_XLSX_10S1_MP20-30",
+     "status": "pending",
+     "geometry": {
+      "type": "Point",
+      "coordinates": [
+       -83.29971746853897,
+       35.54234605736788
+      ]
+     },
+     "sta_ft": 39347.6,
+     "sta": "393+47.61",
+     "attrs": {
+      "side": "R",
+      "eop_offset": 7.0,
+      "n_posts": 2.0,
+      "mp": 28.411,
+      "posts": [
+       {
+        "type": "WOOD_4X4",
+        "_type_raw": "4 x 4 Wood",
+        "height_ft": 6.0,
+        "foundation": "buried_direct",
+        "breakaway": "no",
+        "condition": "E",
+        "_cond_raw": "Poor, Broken"
+       }
+      ],
+      "panels": [
+       {
+        "angle_deg": 0.0,
+        "description": "<- Tow String Horse Camp",
+        "size": "24\" x 56\"",
+        "panel_condition": "P",
+        "sheet_condition": "P",
+        "damage": "Panel - Bent, bullet holes, Sheet - Peeling, mildew",
+        "sheeting_type": "HIP",
+        "_sheeting_raw": "Hex",
+        "back_panel": "Brown",
+        "mounting": "Angled Brackets",
+        "reflectivity": "P",
+        "comment": "Corrugated AL"
+       }
+      ],
+      "source": "AECOM_XLSX_10S1_MP20-30",
+      "_source_row": 45
+     }
+    },
+    {
+     "id": "N3-SIG-033",
+     "ulid": "3WTVM5W3JKBA4CA46YEPV22G39",
+     "kind": "pt_sign",
+     "source": "AECOM_XLSX_10S1_MP20-30",
+     "status": "pending",
+     "geometry": {
+      "type": "Point",
+      "coordinates": [
+       -83.29924914051557,
+       35.54176402935192
+      ]
+     },
+     "sta_ft": 39604.4,
+     "sta": "396+04.37",
+     "attrs": {
+      "side": "R",
+      "eop_offset": 7.0,
+      "n_posts": 1.0,
+      "mp": 28.46,
+      "posts": [
+       {
+        "type": "WOOD_4X4",
+        "_type_raw": "4 x 4 Wood",
+        "height_ft": 8.0,
+        "foundation": "buried_direct",
+        "breakaway": "no",
+        "condition": "E",
+        "_cond_raw": "Poor, Leaning"
+       }
+      ],
+      "panels": [
+       {
+        "description": "NO PANEL",
+        "comment": "Consider removing; drilled for two panels"
+       }
+      ],
+      "source": "AECOM_XLSX_10S1_MP20-30",
+      "_source_row": 46
+     }
+    },
+    {
+     "id": "N3-SIG-034",
+     "ulid": "6YH3VN4QKN00D9FJWKYPGMY8HR",
+     "kind": "pt_sign",
+     "source": "AECOM_XLSX_10S1_MP20-30",
+     "status": "pending",
+     "geometry": {
+      "type": "Point",
+      "coordinates": [
+       -83.2988537350281,
+       35.54127533953146
+      ]
+     },
+     "sta_ft": 39814.0,
+     "sta": "398+13.97",
+     "attrs": {
+      "side": "L",
+      "eop_offset": 5.0,
+      "n_posts": 1.0,
+      "mp": 28.5,
+      "posts": [
+       {
+        "type": "WOOD_4X4",
+        "_type_raw": "4 x 4 Wood",
+        "height_ft": 7.0,
+        "foundation": "concrete",
+        "breakaway": "no",
+        "condition": "G",
+        "_cond_raw": "Good"
+       }
+      ],
+      "panels": [
+       {
+        "angle_deg": 270.0,
+        "description": "STOP",
+        "size": "30\" x 30\"",
+        "panel_condition": "G",
+        "sheet_condition": "P",
+        "damage": "Peeling",
+        "sheeting_type": "DG3",
+        "_sheeting_raw": "Diamond",
+        "back_panel": "Brown",
+        "mounting": "Bolted",
+        "reflectivity": "P",
+        "comment": "On Tow String Horse Camp Road"
+       }
+      ],
+      "source": "AECOM_XLSX_10S1_MP20-30",
+      "_source_row": 47
+     }
+    },
+    {
+     "id": "N3-SIG-035",
+     "ulid": "1EMHE5V3151WSN2DPKE6XK258R",
+     "kind": "pt_sign",
+     "source": "AECOM_XLSX_10S1_MP20-30",
+     "status": "pending",
+     "geometry": {
+      "type": "Point",
+      "coordinates": [
+       -83.2989258311178,
+       35.54031142740178
+      ]
+     },
+     "sta_ft": 40159.8,
+     "sta": "401+59.82",
+     "attrs": {
+      "side": "L",
+      "eop_offset": 6.5,
+      "n_posts": 1.0,
+      "mp": 28.566,
+      "posts": [
+       {
+        "type": "WOOD_4X4",
+        "_type_raw": "4 x 4 Wood",
+        "height_ft": 10.0,
+        "foundation": "buried_direct",
+        "breakaway": "no",
+        "condition": "E",
+        "_cond_raw": "Fair, Loose"
+       }
+      ],
+      "panels": [
+       {
+        "angle_deg": 0.0,
+        "description": "Elk",
+        "size": "36\" x 36\"",
+        "panel_condition": "G",
+        "sheet_condition": "G",
+        "sheeting_type": "HIP",
+        "_sheeting_raw": "Hex",
+        "back_panel": "Brown",
+        "mounting": "Bolted",
+        "reflectivity": "G"
+       }
+      ],
+      "source": "AECOM_XLSX_10S1_MP20-30",
+      "_source_row": 48
+     }
+    },
+    {
+     "id": "N3-SIG-036",
+     "ulid": "657CDDFG9GRWPFTTPDAQ4TJVFM",
+     "kind": "pt_sign",
+     "source": "AECOM_XLSX_10S1_MP20-30",
+     "status": "pending",
+     "geometry": {
+      "type": "Point",
+      "coordinates": [
+       -83.29907225861035,
+       35.539907725629185
+      ]
+     },
+     "sta_ft": 40311.8,
+     "sta": "403+11.78",
+     "attrs": {
+      "side": "L",
+      "eop_offset": 7.0,
+      "n_posts": 2.0,
+      "mp": 28.595,
+      "posts": [
+       {
+        "type": "WOOD_4X4",
+        "_type_raw": "4 x 4 Wood",
+        "height_ft": 6.0,
+        "foundation": "buried_direct",
+        "breakaway": "no",
+        "condition": "E",
+        "_cond_raw": "Poor, Broken"
+       }
+      ],
+      "panels": [
+       {
+        "angle_deg": 0.0,
+        "description": "Tow String Horse Camp ->",
+        "size": "24\" x 56\"",
+        "panel_condition": "F",
+        "sheet_condition": "G",
+        "damage": "Panel - dented",
+        "sheeting_type": "HIP",
+        "_sheeting_raw": "Hex",
+        "back_panel": "Brown",
+        "mounting": "Angled Brackets",
+        "reflectivity": "G",
+        "comment": "Corrugated AL"
+       }
+      ],
+      "source": "AECOM_XLSX_10S1_MP20-30",
+      "_source_row": 49
+     }
+    },
+    {
+     "id": "N3-SIG-037",
+     "ulid": "1200M3GKAFT5DV62019XVW7E3C",
+     "kind": "pt_sign",
+     "source": "AECOM_XLSX_10S1_MP20-30",
+     "status": "pending",
+     "geometry": {
+      "type": "Point",
+      "coordinates": [
+       -83.29936722351458,
+       35.53963206581277
+      ]
+     },
+     "sta_ft": 40437.5,
+     "sta": "404+37.54",
+     "attrs": {
+      "side": "R",
+      "eop_offset": 8.5,
+      "n_posts": 1.0,
+      "mp": 28.619,
+      "posts": [
+       {
+        "type": "WOOD_4X4",
+        "_type_raw": "4 x 4 Wood",
+        "height_ft": 8.0,
+        "foundation": "buried_direct",
+        "breakaway": "no",
+        "condition": "E",
+        "_cond_raw": "Poor, Leaning"
+       }
+      ],
+      "panels": [
+       {
+        "angle_deg": 0.0,
+        "description": "Speed limit 45",
+        "size": "30\" x 24\"",
+        "panel_condition": "F",
+        "sheet_condition": "F",
+        "damage": "dented panel, peeling sheeting",
+        "sheeting_type": "HIP",
+        "_sheeting_raw": "Hex",
+        "back_panel": "Brown",
+        "mounting": "Bolted",
+        "reflectivity": "F"
+       }
+      ],
+      "source": "AECOM_XLSX_10S1_MP20-30",
+      "_source_row": 50
+     }
+    },
+    {
+     "id": "N3-SIG-038",
+     "ulid": "1PT053ZPJW2PM500PKBP7BBFQ5",
+     "kind": "pt_sign",
+     "source": "AECOM_XLSX_10S1_MP20-30",
+     "status": "pending",
+     "geometry": {
+      "type": "Point",
+      "coordinates": [
+       -83.29936616616071,
+       35.53933147828444
+      ]
+     },
+     "sta_ft": 40537.1,
+     "sta": "405+37.10",
+     "attrs": {
+      "side": "L",
+      "eop_offset": 7.5,
+      "n_posts": 1.0,
+      "mp": 28.638,
+      "posts": [
+       {
+        "type": "WOOD_4X4",
+        "_type_raw": "4 x 4 Wood",
+        "height_ft": 10.0,
+        "foundation": "buried_direct",
+        "breakaway": "no",
+        "condition": "E",
+        "_cond_raw": "Poor, Leaning"
+       }
+      ],
+      "panels": [
+       {
+        "angle_deg": 0.0,
+        "description": "Left turn with right side road",
+        "size": "30\" x 30\"",
+        "panel_condition": "F",
+        "sheet_condition": "F",
+        "damage": "dented panel, peeling sheeting",
+        "sheeting_type": "DG3",
+        "_sheeting_raw": "Diamond",
+        "back_panel": "Brown",
+        "mounting": "Bolted",
+        "reflectivity": "G"
+       },
+       {
+        "angle_deg": 0.0,
+        "description": "35 MPH",
+        "size": "18\" x 18\"",
+        "panel_condition": "F",
+        "sheet_condition": "F",
+        "damage": "dented panel, peeling sheeting",
+        "sheeting_type": "DG3",
+        "_sheeting_raw": "Diamond",
+        "back_panel": "Brown",
+        "mounting": "Bolted",
+        "reflectivity": "G"
+       }
+      ],
+      "source": "AECOM_XLSX_10S1_MP20-30",
+      "_source_row": 51
+     }
+    },
+    {
+     "id": "N3-SIG-039",
+     "ulid": "2YYH31N5REVNKZ9SJB51SPJ7JY",
+     "kind": "pt_sign",
+     "source": "AECOM_XLSX_10S1_MP20-30",
+     "status": "pending",
+     "geometry": {
+      "type": "Point",
+      "coordinates": [
+       -83.30388381175257,
+       35.534317560371605
+      ]
+     },
+     "sta_ft": 42863.7,
+     "sta": "428+63.69",
+     "attrs": {
+      "side": "R",
+      "eop_offset": 6.0,
+      "n_posts": 1.0,
+      "mp": 29.082,
+      "posts": [
+       {
+        "type": "WOOD_4X4",
+        "_type_raw": "4 x 4 Wood",
+        "height_ft": 9.0,
+        "foundation": "buried_direct",
+        "breakaway": "no",
+        "condition": "G",
+        "_cond_raw": "Good"
+       }
+      ],
+      "panels": [
+       {
+        "angle_deg": 0.0,
+        "description": "Elk",
+        "size": "30\" x 30\"",
+        "panel_condition": "G",
+        "sheet_condition": "F",
+        "damage": "mildew on sheet",
+        "sheeting_type": "DG3",
+        "_sheeting_raw": "Diamond",
+        "back_panel": "Brown",
+        "mounting": "Bolted",
+        "reflectivity": "P"
+       }
+      ],
+      "source": "AECOM_XLSX_10S1_MP20-30",
+      "_source_row": 53
+     }
+    },
+    {
+     "id": "N3-SIG-040",
+     "ulid": "3VBAY2SEV0E5SPE9RZGX70EBHQ",
+     "kind": "pt_sign",
+     "source": "AECOM_XLSX_10S1_MP20-30",
+     "status": "pending",
+     "geometry": {
+      "type": "Point",
+      "coordinates": [
+       -83.30401835575046,
+       35.52652783003111
+      ]
+     },
+     "sta_ft": 45719.5,
+     "sta": "457+19.52",
+     "attrs": {
+      "side": "L",
+      "eop_offset": 5.5,
+      "n_posts": 2.0,
+      "mp": 29.627,
+      "posts": [
+       {
+        "type": "WOOD_4X6",
+        "_type_raw": "4 x 6 Wood",
+        "height_ft": 8.0,
+        "foundation": "buried_direct",
+        "breakaway": "no",
+        "condition": "G",
+        "_cond_raw": "Good"
+       }
+      ],
+      "panels": [
+       {
+        "angle_deg": 0.0,
+        "description": "Smokemont 2; Collins Creek 4",
+        "size": "38\" x 76\"",
+        "panel_condition": "P",
+        "sheet_condition": "P",
+        "damage": "Dented panel, cracked sheeting",
+        "_sheeting_raw": "Eng. Grade",
+        "back_panel": "Brown",
+        "mounting": "Angled Brackets",
+        "reflectivity": "P",
+        "comment": "Corrugated AL"
+       }
+      ],
+      "source": "AECOM_XLSX_10S1_MP20-30",
+      "_source_row": 54
+     }
+    },
+    {
+     "id": "N3-SIG-041",
+     "ulid": "2R92Q5RSKTY51KE5S2BTCGWR3C",
+     "kind": "pt_sign",
+     "source": "AECOM_XLSX_10S1_MP20-30",
+     "status": "pending",
+     "geometry": {
+      "type": "Point",
+      "coordinates": [
+       -83.30586470967542,
+       35.523987760140265
+      ]
+     },
+     "sta_ft": 46809.5,
+     "sta": "468+09.45",
+     "attrs": {
+      "side": "R",
+      "eop_offset": 6.0,
+      "n_posts": 2.0,
+      "mp": 29.835,
+      "posts": [
+       {
+        "type": "WOOD_4X6",
+        "_type_raw": "4 x 6 Wood",
+        "height_ft": 7.0,
+        "foundation": "buried_direct",
+        "condition": "G",
+        "_cond_raw": "Good"
+       }
+      ],
+      "panels": [
+       {
+        "angle_deg": 0.0,
+        "description": "Mingus Mill Historic Gristmill Nixt Right",
+        "size": "31\" x 67\"",
+        "panel_condition": "P",
+        "sheet_condition": "P",
+        "damage": "dented panel, peeling sheeting, mildew",
+        "sheeting_type": "HIP",
+        "_sheeting_raw": "Hex",
+        "back_panel": "Brown",
+        "mounting": "Angled Brackets",
+        "reflectivity": "F",
+        "comment": "corrugated AL"
+       }
+      ],
+      "source": "AECOM_XLSX_10S1_MP20-30",
+      "_source_row": 55
+     }
+    },
+    {
+     "id": "N3-SIG-042",
+     "ulid": "519C60F4ZKKNQZ59YN2A4PEG6X",
+     "kind": "pt_sign",
+     "source": "AECOM_XLSX_10S1_MP20-30",
+     "status": "pending",
+     "geometry": {
+      "type": "Point",
+      "coordinates": [
+       -83.3064120643438,
+       35.52337785302025
+      ]
+     },
+     "sta_ft": 47081.9,
+     "sta": "470+81.93",
+     "attrs": {
+      "side": "L",
+      "eop_offset": 5.5,
+      "n_posts": 1.0,
+      "mp": 29.887,
+      "posts": [
+       {
+        "type": "WOOD_4X4",
+        "_type_raw": "4 x 4 Wood",
+        "height_ft": 7.0,
+        "foundation": "buried_direct",
+        "breakaway": "no",
+        "condition": "G",
+        "_cond_raw": "Good"
+       }
+      ],
+      "panels": [
+       {
+        "angle_deg": 0.0,
+        "description": "Speed limit 45",
+        "size": "30\" x 24\"",
+        "panel_condition": "P",
+        "sheet_condition": "F",
+        "damage": "Bent Panel, Mildew on sheeting",
+        "sheeting_type": "DG3",
+        "_sheeting_raw": "Diamond",
+        "back_panel": "Brown",
+        "mounting": "Bolted",
+        "reflectivity": "F"
+       }
+      ],
+      "source": "AECOM_XLSX_10S1_MP20-30",
+      "_source_row": 56
+     }
+    },
+    {
+     "id": "N3-SIG-043",
+     "ulid": "7G5H5HQSBEPWDFRE7C87CSBGWX",
+     "kind": "pt_sign",
+     "source": "AECOM_XLSX_10S1_MP20-30",
+     "status": "pending",
+     "geometry": {
+      "type": "Point",
+      "coordinates": [
+       -83.3066861989467,
+       35.52331737700228
+      ]
+     },
+     "sta_ft": 47155.3,
+     "sta": "471+55.30",
+     "attrs": {
+      "side": "R",
+      "eop_offset": 6.0,
+      "n_posts": 1.0,
+      "mp": 29.901,
+      "posts": [
+       {
+        "type": "WOOD_4X4",
+        "_type_raw": "4 x 4 Wood",
+        "height_ft": 7.0,
+        "foundation": "buried_direct",
+        "breakaway": "no",
+        "condition": "G",
+        "_cond_raw": "Good"
+       }
+      ],
+      "panels": [
+       {
+        "angle_deg": 0.0,
+        "description": "Speed limit 35",
+        "size": "30\" x 24\"",
+        "panel_condition": "F",
+        "sheet_condition": "F",
+        "damage": "Slight bent and dented panel, mildew on sheeting",
+        "sheeting_type": "DG3",
+        "_sheeting_raw": "Diamond",
+        "back_panel": "Brown",
+        "mounting": "Bolted",
+        "reflectivity": "F"
+       }
+      ],
+      "source": "AECOM_XLSX_10S1_MP20-30",
+      "_source_row": 57
+     }
+    }
+   ]
   },
   {
    "id": "C",
