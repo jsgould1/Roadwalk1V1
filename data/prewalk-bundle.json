@@ -163471,14 +163471,14 @@
      "geometry": {
       "type": "Point",
       "coordinates": [
-       -83.300601,
-       35.505881
+       -83.30064369387514,
+       35.50590314137423
       ]
      },
      "sta_ft": 0.0,
      "sta": "0+00.00",
      "attrs": {
-      "side": "on",
+      "side": "R",
       "gate_dir": "NB",
       "side_raw": "Gate NB",
       "eop_offset": 3.0,
@@ -163501,7 +163501,8 @@
       ],
       "notes": "Attached to NB gate structure. XLSX BLRI row 8 #5.",
       "source": "AECOM_XLSX_BLRI_GATES",
-      "_source_row": 8
+      "_source_row": 8,
+      "offset_from_centerline_ft": 15.0
      }
     },
     {
@@ -163513,14 +163514,14 @@
      "geometry": {
       "type": "Point",
       "coordinates": [
-       -83.300601,
-       35.505881
+       -83.30055830612486,
+       35.50585885862577
       ]
      },
      "sta_ft": 0.0,
      "sta": "0+00.00",
      "attrs": {
-      "side": "on",
+      "side": "L",
       "gate_dir": "NB",
       "side_raw": "Gate NB",
       "eop_offset": null,
@@ -163543,7 +163544,8 @@
       ],
       "notes": "Attached to NB gate structure. XLSX BLRI row 9 #6.",
       "source": "AECOM_XLSX_BLRI_GATES",
-      "_source_row": 9
+      "_source_row": 9,
+      "offset_from_centerline_ft": 15.0
      }
     },
     {
@@ -163555,14 +163557,14 @@
      "geometry": {
       "type": "Point",
       "coordinates": [
-       -83.300601,
-       35.505881
+       -83.30060953877503,
+       35.50588542827485
       ]
      },
      "sta_ft": 0.0,
      "sta": "0+00.00",
      "attrs": {
-      "side": "on",
+      "side": "R",
       "gate_dir": "NB",
       "side_raw": "Gate NB",
       "eop_offset": null,
@@ -163585,7 +163587,8 @@
       ],
       "notes": "Attached to NB gate structure. XLSX BLRI row 10 #7.",
       "source": "AECOM_XLSX_BLRI_GATES",
-      "_source_row": 10
+      "_source_row": 10,
+      "offset_from_centerline_ft": 3.0
      }
     },
     {
@@ -163597,14 +163600,14 @@
      "geometry": {
       "type": "Point",
       "coordinates": [
-       -83.300601,
-       35.505881
+       -83.30061807755006,
+       35.50588985654969
       ]
      },
      "sta_ft": 0.0,
      "sta": "0+00.00",
      "attrs": {
-      "side": "on",
+      "side": "R",
       "gate_dir": "NB",
       "side_raw": "Gate NB",
       "eop_offset": null,
@@ -163627,7 +163630,8 @@
       ],
       "notes": "Attached to NB gate structure. XLSX BLRI row 11 #8.",
       "source": "AECOM_XLSX_BLRI_GATES",
-      "_source_row": 11
+      "_source_row": 11,
+      "offset_from_centerline_ft": 6.0
      }
     },
     {
@@ -163639,14 +163643,14 @@
      "geometry": {
       "type": "Point",
       "coordinates": [
-       -83.300601,
-       35.505881
+       -83.30059246122497,
+       35.50587657172515
       ]
      },
      "sta_ft": 0.0,
      "sta": "0+00.00",
      "attrs": {
-      "side": "on",
+      "side": "L",
       "gate_dir": "SB",
       "side_raw": "Gate SB",
       "eop_offset": null,
@@ -163669,7 +163673,8 @@
       ],
       "notes": "Attached to SB gate structure. XLSX BLRI row 12 #9.",
       "source": "AECOM_XLSX_BLRI_GATES",
-      "_source_row": 12
+      "_source_row": 12,
+      "offset_from_centerline_ft": 3.0
      }
     }
    ],
