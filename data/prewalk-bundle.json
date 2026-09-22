@@ -163461,7 +163461,218 @@
     }
    ],
    "sub_alignments": [],
-   "pins": [],
+   "pins": [
+    {
+     "id": "F-SIG-GATE-01",
+     "ulid": "2D0E0XR4R1BD51YQ3MHJPRSYFP",
+     "kind": "pt_sign",
+     "source": "AECOM_XLSX_BLRI_GATES",
+     "status": "pending",
+     "geometry": {
+      "type": "Point",
+      "coordinates": [
+       -83.300601,
+       35.505881
+      ]
+     },
+     "sta_ft": 0.0,
+     "sta": "0+00.00",
+     "attrs": {
+      "side": "on",
+      "gate_dir": "NB",
+      "side_raw": "Gate NB",
+      "eop_offset": 3.0,
+      "posts": [],
+      "panels": [
+       {
+        "angle_deg": 0.0,
+        "description": "OM1R",
+        "size": "12\" x 36\"",
+        "panel_condition": "G",
+        "sheet_condition": "G",
+        "damage": "mildew",
+        "sheeting_type": "DG3",
+        "_sheeting_raw": "Diamond",
+        "back_panel": "not painted",
+        "mounting": "Bolted",
+        "reflectivity": "F",
+        "comment": ""
+       }
+      ],
+      "notes": "Attached to NB gate structure. XLSX BLRI row 8 #5.",
+      "source": "AECOM_XLSX_BLRI_GATES",
+      "_source_row": 8
+     }
+    },
+    {
+     "id": "F-SIG-GATE-02",
+     "ulid": "5WXBQSDMVYV7ADGDPJS8S79269",
+     "kind": "pt_sign",
+     "source": "AECOM_XLSX_BLRI_GATES",
+     "status": "pending",
+     "geometry": {
+      "type": "Point",
+      "coordinates": [
+       -83.300601,
+       35.505881
+      ]
+     },
+     "sta_ft": 0.0,
+     "sta": "0+00.00",
+     "attrs": {
+      "side": "on",
+      "gate_dir": "NB",
+      "side_raw": "Gate NB",
+      "eop_offset": null,
+      "posts": [],
+      "panels": [
+       {
+        "angle_deg": 180.0,
+        "description": "OM1R",
+        "size": "12\" x 36\"",
+        "panel_condition": "G",
+        "sheet_condition": "G",
+        "damage": "mildew",
+        "sheeting_type": "DG3",
+        "_sheeting_raw": "Diamond",
+        "back_panel": "not painted",
+        "mounting": "Bolted",
+        "reflectivity": "P",
+        "comment": ""
+       }
+      ],
+      "notes": "Attached to NB gate structure. XLSX BLRI row 9 #6.",
+      "source": "AECOM_XLSX_BLRI_GATES",
+      "_source_row": 9
+     }
+    },
+    {
+     "id": "F-SIG-GATE-03",
+     "ulid": "4QPJT6XJYXGYG7ZSEKEMD1DMCA",
+     "kind": "pt_sign",
+     "source": "AECOM_XLSX_BLRI_GATES",
+     "status": "pending",
+     "geometry": {
+      "type": "Point",
+      "coordinates": [
+       -83.300601,
+       35.505881
+      ]
+     },
+     "sta_ft": 0.0,
+     "sta": "0+00.00",
+     "attrs": {
+      "side": "on",
+      "gate_dir": "NB",
+      "side_raw": "Gate NB",
+      "eop_offset": null,
+      "posts": [],
+      "panels": [
+       {
+        "angle_deg": 0.0,
+        "description": "ROAD",
+        "size": "11\" X 48\"",
+        "panel_condition": "F",
+        "sheet_condition": "F",
+        "damage": "mildew",
+        "sheeting_type": "EG",
+        "_sheeting_raw": "Eng. Grade",
+        "back_panel": "Brown",
+        "mounting": "Bolted",
+        "reflectivity": "P",
+        "comment": ""
+       }
+      ],
+      "notes": "Attached to NB gate structure. XLSX BLRI row 10 #7.",
+      "source": "AECOM_XLSX_BLRI_GATES",
+      "_source_row": 10
+     }
+    },
+    {
+     "id": "F-SIG-GATE-04",
+     "ulid": "5EZ39AHS7T9YY2NVZVN1NQNPAA",
+     "kind": "pt_sign",
+     "source": "AECOM_XLSX_BLRI_GATES",
+     "status": "pending",
+     "geometry": {
+      "type": "Point",
+      "coordinates": [
+       -83.300601,
+       35.505881
+      ]
+     },
+     "sta_ft": 0.0,
+     "sta": "0+00.00",
+     "attrs": {
+      "side": "on",
+      "gate_dir": "NB",
+      "side_raw": "Gate NB",
+      "eop_offset": null,
+      "posts": [],
+      "panels": [
+       {
+        "angle_deg": 0.0,
+        "description": "CLOSED",
+        "size": "11\" X 48\"",
+        "panel_condition": "F",
+        "sheet_condition": "F",
+        "damage": "mildew",
+        "sheeting_type": "EG",
+        "_sheeting_raw": "Eng. Grade",
+        "back_panel": "Brown",
+        "mounting": "Bolted",
+        "reflectivity": "P",
+        "comment": ""
+       }
+      ],
+      "notes": "Attached to NB gate structure. XLSX BLRI row 11 #8.",
+      "source": "AECOM_XLSX_BLRI_GATES",
+      "_source_row": 11
+     }
+    },
+    {
+     "id": "F-SIG-GATE-05",
+     "ulid": "4M6J04D3S4KPASRQRAFTPECPFV",
+     "kind": "pt_sign",
+     "source": "AECOM_XLSX_BLRI_GATES",
+     "status": "pending",
+     "geometry": {
+      "type": "Point",
+      "coordinates": [
+       -83.30105423948358,
+       35.5053018418055
+      ]
+     },
+     "sta_ft": 250.5,
+     "sta": "2+50.52",
+     "attrs": {
+      "side": "on",
+      "gate_dir": "SB",
+      "side_raw": "Gate SB",
+      "eop_offset": null,
+      "posts": [],
+      "panels": [
+       {
+        "angle_deg": 180.0,
+        "description": "DO NOT BLOCK GATE",
+        "size": "6\" x 42\"",
+        "panel_condition": "F",
+        "sheet_condition": "F",
+        "damage": "mildew",
+        "sheeting_type": "HIP",
+        "_sheeting_raw": "Hex",
+        "back_panel": "Brown",
+        "mounting": "Bolted",
+        "reflectivity": "P",
+        "comment": ""
+       }
+      ],
+      "notes": "Attached to SB gate structure. XLSX BLRI row 12 #9.",
+      "source": "AECOM_XLSX_BLRI_GATES",
+      "_source_row": 12
+     }
+    }
+   ],
    "_aerial_choice": "esri_aerial"
   },
   {
