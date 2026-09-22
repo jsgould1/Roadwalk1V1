@@ -12561,7 +12561,10 @@ console.log('%c[RoadWalk] BUILD v20260514 loaded OK', 'color:#16a34a;font-weight
     // is authoritative for sections it already knows about — but any section
     // newly added to the published bundle (e.g. a freshly-added Section E)
     // gets MERGED in, so picking up new sections never requires the user to
-    // throw away their field edits on the existing ones.
+    // throw away their field edits on the existing ones. Within an existing
+    // section, any bundle pin whose ulid (or id, as a fallback) the saved
+    // copy hasn't seen also gets merged in so newly-published pins reach the
+    // field without a full working-copy reset.
     try {
       // idbGet lives in the Phase 1 IIFE — reach it via the exposed window.RWIdb.
       // (A bare idbGet here threw a ReferenceError, so the field working copy
@@ -12571,6 +12574,34 @@ console.log('%c[RoadWalk] BUILD v20260514 loaded OK', 'color:#16a34a;font-weight
         if (!saved || !Array.isArray(saved.sections) || !saved.sections.length) return;
         const savedIds = new Set(saved.sections.map(function (s) { return s && s.id; }));
         const added = _bundleSecs.filter(function (s) { return s && !savedIds.has(s.id); });
+        const _bundleSecById = {};
+        _bundleSecs.forEach(function (bs) { if (bs && bs.id) _bundleSecById[bs.id] = bs; });
+        // Pin-level merge into existing saved sections.
+        var _pinsMerged = 0;
+        var _pinsMergedDetail = [];
+        saved.sections.forEach(function (savedSec) {
+          if (!savedSec || !savedSec.id) return;
+          var bundleSec = _bundleSecById[savedSec.id];
+          if (!bundleSec || !Array.isArray(bundleSec.pins) || !bundleSec.pins.length) return;
+          savedSec.pins = savedSec.pins || [];
+          var seen = new Set();
+          savedSec.pins.forEach(function (p) {
+            if (!p) return;
+            if (p.ulid) seen.add('u:' + p.ulid);
+            if (p.id)   seen.add('i:' + p.id);
+          });
+          bundleSec.pins.forEach(function (bp) {
+            if (!bp) return;
+            var uk = bp.ulid ? 'u:' + bp.ulid : null;
+            var ik = bp.id   ? 'i:' + bp.id   : null;
+            if ((uk && seen.has(uk)) || (ik && seen.has(ik))) return;
+            savedSec.pins.push(bp);
+            if (uk) seen.add(uk);
+            if (ik) seen.add(ik);
+            _pinsMerged++;
+            _pinsMergedDetail.push(savedSec.id + '/' + (bp.id || bp.ulid || '?'));
+          });
+        });
         SECTIONS = saved.sections.concat(added);
         window.SECTIONS = SECTIONS;
         // Hydrate per-pin photo dataUrls back from their own IDB
@@ -12598,10 +12629,13 @@ console.log('%c[RoadWalk] BUILD v20260514 loaded OK', 'color:#16a34a;font-weight
           console.log('[RoadWalk] Restored field working copy —',
             saved.sections.length, 'edited section(s), +' + added.length +
             ' new from bundle [' + added.map(function (s) { return s.id; }).join(',') +
-            '], hydrated ' + hydrations.length + ' photo dataUrl(s), saved', saved.saved_at);
-          // Persist the merged copy so the new sections survive the next
-          // reload (and are included in any export).
-          if (added.length && window._RW && typeof window._RW.persistSections === 'function') {
+            '], +' + _pinsMerged + ' new bundle pin(s) merged into existing sections' +
+            (_pinsMerged ? ' [' + _pinsMergedDetail.slice(0, 20).join(',') +
+              (_pinsMergedDetail.length > 20 ? ',…' : '') + ']' : '') +
+            ', hydrated ' + hydrations.length + ' photo dataUrl(s), saved', saved.saved_at);
+          // Persist the merged copy so the new sections and merged pins
+          // survive the next reload (and are included in any export).
+          if ((added.length || _pinsMerged) && window._RW && typeof window._RW.persistSections === 'function') {
             window._RW.persistSections();
           }
         });
