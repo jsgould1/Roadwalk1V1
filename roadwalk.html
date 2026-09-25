@@ -31364,6 +31364,65 @@ console.log('%c[RoadWalk] BUILD v20260514 loaded OK', 'color:#16a34a;font-weight
     try { localStorage.removeItem('rw_sr_sources'); } catch (_) {}
   }
   function _srSourceLabel(s) { return s ? String(s) : '(no source)'; }
+
+  // Pin ids already carry their section prefix ("N3-SIG-001", "A-BRI-001"),
+  // so prepending sec.id produced "N3-N3-SIG-001" on every record — long
+  // enough to wrap the "PAGE n OF n" footer onto a second line.
+  function _srPinLabel(sec, pin) {
+    var id = (pin && pin.id) || '';
+    var sid = (sec && sec.id) || '';
+    if (!sid) return id;
+    if (!id) return sid;
+    if (id === sid || id.indexOf(sid + '-') === 0) return id;
+    return sid + '-' + id;
+  }
+
+  // Milepost for a pin. Priority:
+  //   1. attrs.mp — the surveyed milepost carried in from the source
+  //      spreadsheet. Authoritative; use it verbatim.
+  //   2. Proportional across the section's MP range, which pins MP to the
+  //      pathweb stationing at both ends regardless of how long the drawn
+  //      alignment happens to be.
+  //   3. attrs.mp_start, for pins predating either.
+  // The old form (mp_start + sta_ft/5280) assumed the alignment length
+  // equalled the MP range x 5280. On N3 the range is 9.098 mi (48,037 ft)
+  // against a 47,674 ft alignment, so every MP read low by up to 359 ft,
+  // with the error growing along the section.
+  function _srPinMp(sec, pin, a) {
+    a = a || (pin && pin.attrs) || {};
+    if (a.mp != null && isFinite(+a.mp)) return +a.mp;
+    var mp0 = (sec && typeof sec.mpStart === 'number') ? sec.mpStart
+            : (sec && typeof sec.mp_start === 'number') ? sec.mp_start : null;
+    var mp1 = (sec && typeof sec.mpEnd === 'number') ? sec.mpEnd
+            : (sec && typeof sec.mp_end === 'number') ? sec.mp_end : null;
+    if (mp0 != null && typeof pin.sta_ft === 'number') {
+      var lenFt = _srSectionLenFt(sec);
+      if (mp1 != null && lenFt > 0) return mp0 + (pin.sta_ft / lenFt) * (mp1 - mp0);
+      return mp0 + pin.sta_ft / 5280;
+    }
+    if (a.mp_start != null && isFinite(+a.mp_start)) return +a.mp_start;
+    return null;
+  }
+
+  var _srLenCache = new WeakMap();
+  function _srSectionLenFt(sec) {
+    if (!sec || !Array.isArray(sec.alignment) || sec.alignment.length < 2) return 0;
+    var hit = _srLenCache.get(sec);
+    if (hit != null) return hit;
+    // sec.alignment is [lat,lng] in the in-memory model.
+    var R = 20902231.0, tot = 0;
+    for (var i = 0; i < sec.alignment.length - 1; i++) {
+      var p = sec.alignment[i], q = sec.alignment[i + 1];
+      if (!p || !q) continue;
+      var la1 = p[0] * Math.PI / 180, lo1 = p[1] * Math.PI / 180;
+      var la2 = q[0] * Math.PI / 180, lo2 = q[1] * Math.PI / 180;
+      var h = Math.pow(Math.sin((la2 - la1) / 2), 2)
+            + Math.cos(la1) * Math.cos(la2) * Math.pow(Math.sin((lo2 - lo1) / 2), 2);
+      tot += 2 * R * Math.asin(Math.min(1, Math.sqrt(h)));
+    }
+    _srLenCache.set(sec, tot);
+    return tot;
+  }
   // Last-seen source tally — read inside the chip click handler so it
   // doesn't have to re-walk SECTIONS on every click.
   var _srLastSrcCounts = {};
@@ -31694,14 +31753,7 @@ console.log('%c[RoadWalk] BUILD v20260514 loaded OK', 'color:#16a34a;font-weight
 
       // MP — same derivation the on-screen card uses.
       var mpStr = '';
-      var mpStartNum = (sec && typeof sec.mpStart === 'number') ? sec.mpStart
-                    : (sec && typeof sec.mp_start === 'number') ? sec.mp_start : null;
-      var mpVal = null;
-      if (mpStartNum != null && typeof pin.sta_ft === 'number') {
-        mpVal = mpStartNum + pin.sta_ft / 5280;
-      } else if (a.mp_start != null) {
-        mpVal = +a.mp_start;
-      }
+      var mpVal = _srPinMp(sec, pin, a);
       if (mpVal != null && isFinite(mpVal)) mpStr = mpVal.toFixed(3);
 
       var lat = '', lng = '';
@@ -32247,7 +32299,7 @@ console.log('%c[RoadWalk] BUILD v20260514 loaded OK', 'color:#16a34a;font-weight
       var lng = +g[0], lat = +g[1];
       if (!isFinite(lng) || !isFinite(lat)) return '';
 
-      var pinIdFull = (sec.id ? sec.id + '-' : '') + (pin.id || '');
+      var pinIdFull = _srPinLabel(sec, pin);
       var pinIdSafe = _safeFileName(pinIdFull);
       var posts  = Array.isArray(a.posts)  ? a.posts  : [];
       var panels = Array.isArray(a.panels) ? a.panels : [];
@@ -32268,11 +32320,7 @@ console.log('%c[RoadWalk] BUILD v20260514 loaded OK', 'color:#16a34a;font-weight
 
       // MP
       var mpStr = '';
-      var mpStartNum = (sec && typeof sec.mpStart === 'number') ? sec.mpStart
-                    : (sec && typeof sec.mp_start === 'number') ? sec.mp_start : null;
-      var mpVal = null;
-      if (mpStartNum != null && typeof pin.sta_ft === 'number') mpVal = mpStartNum + pin.sta_ft / 5280;
-      else if (a.mp_start != null) mpVal = +a.mp_start;
+      var mpVal = _srPinMp(sec, pin, a);
       if (mpVal != null && isFinite(mpVal)) mpStr = mpVal.toFixed(3);
 
       // Description joined from all panels. The Placemark <name>
@@ -32895,14 +32943,7 @@ console.log('%c[RoadWalk] BUILD v20260514 loaded OK', 'color:#16a34a;font-weight
       // section has no mpStart (e.g. user-added field sections that
       // were never given a MP range).
       var mpDisplay = '';
-      var mpStartNum = (sec && typeof sec.mpStart === 'number') ? sec.mpStart
-                    : (sec && typeof sec.mp_start === 'number') ? sec.mp_start : null;
-      var mpVal = null;
-      if (mpStartNum != null && typeof pin.sta_ft === 'number') {
-        mpVal = mpStartNum + pin.sta_ft / 5280;
-      } else if (a.mp_start != null) {
-        mpVal = +a.mp_start;
-      }
+      var mpVal = _srPinMp(sec, pin, a);
       if (mpVal != null && isFinite(mpVal)) {
         mpDisplay = mpVal.toFixed(3);
       }
@@ -32935,7 +32976,7 @@ console.log('%c[RoadWalk] BUILD v20260514 loaded OK', 'color:#16a34a;font-weight
       //   (or sign code as fallback)
       // Row 2: STA · MP · Lat/Lng
       // Row 3: Side · EOP Offset
-      var signIdStr  = (sec.id ? sec.id + '-' : '') + (pin.id || '');
+      var signIdStr  = _srPinLabel(sec, pin);
       // Join every panel's description (or sign_code as fallback) with
       // ' / ' so a sign with two panels reads "NO U-TURN / KEEP RIGHT".
       var panelDescStr = panelsSorted.map(function (e) {
