@@ -185,16 +185,21 @@ def _condition(raw):
     s = str(raw).strip()
     if not s:
         return None, None
-    # First char often is the code (e.g., "P (One post rotting)")
-    first = s[0].upper()
-    if first in {"E", "G", "F", "P", "X"}:
-        # Did we lose context? Keep the rest as note text.
-        rest = s[1:].strip()
-        rest = re.sub(r"^[(\s\-:,]+", "", rest).rstrip(") ")
-        return first, rest if rest else None
-    # Try full-word match
-    mapped, raw_text = _lookup(CONDITION_MAP, s)
-    return mapped, raw_text
+    # Whole cell is a condition ("F", "Fair", "poor") — no note.
+    mapped, _ = _lookup(CONDITION_MAP, s)
+    if mapped:
+        return mapped, None
+    # Otherwise the cell may lead with the condition and carry a note after
+    # it ("P (One post rotting)", "Fair - loose"). Match the leading WORD,
+    # not the leading character: slicing s[0] turned "fair" into F + "air"
+    # and "poor" into P + "oor".
+    m = re.match(r"^([A-Za-z]+)(.*)$", s, re.S)
+    if m:
+        word = m.group(1).lower()
+        if word in CONDITION_MAP:
+            rest = re.sub(r"^[(\s\-:,]+", "", m.group(2)).rstrip(") ").strip()
+            return CONDITION_MAP[word], rest or None
+    return None, s
 
 
 def _detect_flags(raw, flag_table):

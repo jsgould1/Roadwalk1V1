@@ -2214,7 +2214,7 @@
             "post_breakaway": "no",
             "post_breakaway_raw": null,
             "post_condition": "F",
-            "post_condition_note": "air, Loose",
+            "post_condition_note": "Loose",
             "post_damage": []
           },
           "row_idx": 1,
@@ -2235,7 +2235,7 @@
               "mounting_hardware": "carriage_bolts",
               "mounting_hardware_raw": null,
               "retro_day_r1": "P",
-              "notes": "Consider removal (bump not felt) · Panel cond note: air · Sheet cond note: air · Retro note: oor · Damage: Rock"
+              "notes": "Consider removal (bump not felt) · Damage: Rock"
             }
           ]
         },
@@ -2275,7 +2275,7 @@
               "mounting_hardware": "carriage_bolts",
               "mounting_hardware_raw": null,
               "retro_day_r1": "F",
-              "notes": "Panel cond note: oor · Sheet cond note: oor · Retro note: air"
+              "notes": null
             }
           ]
         },
@@ -2292,7 +2292,7 @@
             "post_breakaway": "no",
             "post_breakaway_raw": null,
             "post_condition": "G",
-            "post_condition_note": "ood",
+            "post_condition_note": null,
             "post_damage": []
           },
           "row_idx": 3,
@@ -2313,7 +2313,7 @@
               "mounting_hardware": "carriage_bolts",
               "mounting_hardware_raw": null,
               "retro_day_r1": "G",
-              "notes": "Panel cond note: ood · Sheet cond note: ood · Retro note: ood · Damage: None"
+              "notes": "Damage: None"
             }
           ]
         },
@@ -2330,7 +2330,7 @@
             "post_breakaway": "no",
             "post_breakaway_raw": null,
             "post_condition": "G",
-            "post_condition_note": "ood",
+            "post_condition_note": null,
             "post_damage": []
           },
           "row_idx": 4,
@@ -2353,7 +2353,7 @@
               "mounting_hardware": "carriage_bolts",
               "mounting_hardware_raw": null,
               "retro_day_r1": "F",
-              "notes": "Sheeting peeling · Panel cond note: air · Sheet cond note: air · Retro note: air"
+              "notes": "Sheeting peeling"
             }
           ]
         },
@@ -2391,7 +2391,7 @@
               "mounting_hardware": "carriage_bolts",
               "mounting_hardware_raw": null,
               "retro_day_r1": "F",
-              "notes": "Panel cond note: ood · Sheet cond note: ood · Retro note: air"
+              "notes": null
             }
           ]
         },
@@ -2408,7 +2408,7 @@
             "post_breakaway": null,
             "post_breakaway_raw": "Boreholes",
             "post_condition": "P",
-            "post_condition_note": "oor, Rotted broken",
+            "post_condition_note": "Rotted broken",
             "post_damage": []
           },
           "row_idx": 6,
@@ -2431,7 +2431,7 @@
               "mounting_hardware": "angled_brackets",
               "mounting_hardware_raw": null,
               "retro_day_r1": "P",
-              "notes": "Corrugated Aluminum, Mildew on sheet · Panel cond note: oor · Sheet cond note: oor · Retro note: oor"
+              "notes": "Corrugated Aluminum, Mildew on sheet"
             }
           ]
         },
@@ -2469,7 +2469,7 @@
               "mounting_hardware": null,
               "mounting_hardware_raw": "Mounted on Gate",
               "retro_day_r1": "P",
-              "notes": "Sheeting peeling, On Collins Creek Picninc road · Panel cond note: air · Sheet cond note: oor · Retro note: oor · Damage: Aluminum"
+              "notes": "Sheeting peeling, On Collins Creek Picninc road · Damage: Aluminum"
             }
           ]
         },
@@ -2486,7 +2486,7 @@
             "post_breakaway": "no",
             "post_breakaway_raw": null,
             "post_condition": "G",
-            "post_condition_note": "ood",
+            "post_condition_note": null,
             "post_damage": []
           },
           "row_idx": 8,
@@ -2507,7 +2507,7 @@
               "mounting_hardware": "carriage_bolts",
               "mounting_hardware_raw": null,
               "retro_day_r1": "G",
-              "notes": "On Collins Creek Picnic Road · Panel cond note: ood · Sheet cond note: ood · Retro note: ood"
+              "notes": "On Collins Creek Picnic Road"
             }
           ]
         },
@@ -2524,7 +2524,7 @@
             "post_breakaway": null,
             "post_breakaway_raw": "Boreholes",
             "post_condition": "G",
-            "post_condition_note": "ood",
+            "post_condition_note": null,
             "post_damage": []
           },
           "row_idx": 9,
@@ -2545,7 +2545,7 @@
               "mounting_hardware": "angled_brackets",
               "mounting_hardware_raw": null,
               "retro_day_r1": "G",
-              "notes": "Corrugated Aluminum · Panel cond note: ood · Sheet cond note: ood · Retro note: ood · Damage: Rock"
+              "notes": "Corrugated Aluminum · Damage: Rock"
             }
           ]
         },
@@ -2562,7 +2562,7 @@
             "post_breakaway": "no",
             "post_breakaway_raw": null,
             "post_condition": "G",
-            "post_condition_note": "ood",
+            "post_condition_note": null,
             "post_damage": []
           },
           "row_idx": 10,
@@ -2583,7 +2583,7 @@
               "mounting_hardware": "carriage_bolts",
               "mounting_hardware_raw": null,
               "retro_day_r1": "P",
-              "notes": "Sheet peeling, mildew · Panel cond note: ood · Sheet cond note: oor · Retro note: oor · Damage: Sheet peeling, mildew"
+              "notes": "Sheet peeling, mildew · Damage: Sheet peeling, mildew"
             }
           ]
         },
@@ -2600,7 +2600,7 @@
             "post_breakaway": "no",
             "post_breakaway_raw": null,
             "post_condition": "G",
-            "post_condition_note": "ood",
+            "post_condition_note": null,
             "post_damage": []
           },
           "row_idx": 11,
@@ -2621,7 +2621,7 @@
               "mounting_hardware": "carriage_bolts",
               "mounting_hardware_raw": null,
               "retro_day_r1": "P",
-              "notes": "Sheet peeling, mildew · Panel cond note: air · Sheet cond note: oor · Retro note: oor · Damage: Rock"
+              "notes": "Sheet peeling, mildew · Damage: Rock"
             }
           ]
         },
@@ -2638,7 +2638,7 @@
             "post_breakaway": null,
             "post_breakaway_raw": "Boreholes",
             "post_condition": "G",
-            "post_condition_note": "ood",
+            "post_condition_note": null,
             "post_damage": []
           },
           "row_idx": 12,
@@ -2661,7 +2661,7 @@
               "mounting_hardware": "angled_brackets",
               "mounting_hardware_raw": null,
               "retro_day_r1": "P",
-              "notes": "Sheet peeling, mildew · Panel cond note: oor · Sheet cond note: oor · Retro note: oor"
+              "notes": "Sheet peeling, mildew"
             }
           ]
         },
@@ -2678,7 +2678,7 @@
             "post_breakaway": "no",
             "post_breakaway_raw": null,
             "post_condition": "G",
-            "post_condition_note": "ood",
+            "post_condition_note": null,
             "post_damage": []
           },
           "row_idx": 13,
@@ -2699,7 +2699,7 @@
               "mounting_hardware": "carriage_bolts",
               "mounting_hardware_raw": null,
               "retro_day_r1": "F",
-              "notes": "Consider removal? No corresponding sing noticed on the SB · Panel cond note: ood · Sheet cond note: oor · Retro note: air · Damage: Sheet Peeling"
+              "notes": "Consider removal? No corresponding sing noticed on the SB · Damage: Sheet Peeling"
             }
           ]
         },
@@ -2737,7 +2737,7 @@
               "mounting_hardware": "carriage_bolts",
               "mounting_hardware_raw": null,
               "retro_day_r1": "F",
-              "notes": "Panel cond note: ood · Sheet cond note: air · Retro note: air"
+              "notes": null
             }
           ]
         },
@@ -2754,7 +2754,7 @@
             "post_breakaway": "no",
             "post_breakaway_raw": null,
             "post_condition": "F",
-            "post_condition_note": "air, Leaning",
+            "post_condition_note": "Leaning",
             "post_damage": []
           },
           "row_idx": 15,
@@ -2777,7 +2777,7 @@
               "mounting_hardware": "carriage_bolts",
               "mounting_hardware_raw": null,
               "retro_day_r1": "F",
-              "notes": "Panel cond note: air · Sheet cond note: ood · Retro note: air"
+              "notes": null
             }
           ]
         },
@@ -2794,7 +2794,7 @@
             "post_breakaway": "no",
             "post_breakaway_raw": null,
             "post_condition": "F",
-            "post_condition_note": "air",
+            "post_condition_note": null,
             "post_damage": []
           },
           "row_idx": 16,
@@ -2815,7 +2815,7 @@
               "mounting_hardware": "carriage_bolts",
               "mounting_hardware_raw": null,
               "retro_day_r1": "F",
-              "notes": "Hinged Panel (closed during Summer) · Panel cond note: air · Sheet cond note: air · Retro note: air · Damage: scraped"
+              "notes": "Hinged Panel (closed during Summer) · Damage: scraped"
             }
           ]
         },
@@ -2832,7 +2832,7 @@
             "post_breakaway": "no",
             "post_breakaway_raw": null,
             "post_condition": "F",
-            "post_condition_note": "air, Leaning",
+            "post_condition_note": "Leaning",
             "post_damage": []
           },
           "row_idx": 17,
@@ -2870,7 +2870,7 @@
             "post_breakaway": "no",
             "post_breakaway_raw": null,
             "post_condition": "F",
-            "post_condition_note": "air",
+            "post_condition_note": null,
             "post_damage": []
           },
           "row_idx": 18,
@@ -2893,7 +2893,7 @@
               "mounting_hardware": "carriage_bolts",
               "mounting_hardware_raw": null,
               "retro_day_r1": "F",
-              "notes": "Panel cond note: air · Sheet cond note: air · Retro note: air"
+              "notes": null
             }
           ]
         },
@@ -2910,7 +2910,7 @@
             "post_breakaway": "no",
             "post_breakaway_raw": null,
             "post_condition": "G",
-            "post_condition_note": "ood",
+            "post_condition_note": null,
             "post_damage": []
           },
           "row_idx": 19,
@@ -2933,7 +2933,7 @@
               "mounting_hardware": "carriage_bolts",
               "mounting_hardware_raw": null,
               "retro_day_r1": "P",
-              "notes": "Panel cond note: oor · Sheet cond note: oor · Retro note: oor"
+              "notes": null
             }
           ]
         },
@@ -2950,7 +2950,7 @@
             "post_breakaway": null,
             "post_breakaway_raw": "Boreholes",
             "post_condition": "P",
-            "post_condition_note": "oor, rotted",
+            "post_condition_note": "rotted",
             "post_damage": []
           },
           "row_idx": 20,
@@ -2973,7 +2973,7 @@
               "mounting_hardware": "angled_brackets",
               "mounting_hardware_raw": null,
               "retro_day_r1": "F",
-              "notes": "Corrugated Aluminum · Panel cond note: air · Sheet cond note: air · Retro note: air"
+              "notes": "Corrugated Aluminum"
             }
           ]
         },
@@ -3011,7 +3011,7 @@
               "mounting_hardware": "angled_brackets",
               "mounting_hardware_raw": null,
               "retro_day_r1": "G",
-              "notes": "Piano Hinged, Corrugated AL · Panel cond note: ood · Sheet cond note: ood · Retro note: ood"
+              "notes": "Piano Hinged, Corrugated AL"
             }
           ]
         },
@@ -3049,7 +3049,7 @@
               "mounting_hardware": null,
               "mounting_hardware_raw": "Mounted on Gate",
               "retro_day_r1": "G",
-              "notes": "Black text on yellow background (Caution); Black on white - the rest · Panel cond note: ood · Sheet cond note: ood · Retro note: ood"
+              "notes": "Black text on yellow background (Caution); Black on white - the rest"
             }
           ]
         },
@@ -3089,7 +3089,7 @@
               "mounting_hardware": null,
               "mounting_hardware_raw": "Mounted on Gate",
               "retro_day_r1": "P",
-              "notes": "Panel cond note: air · Sheet cond note: air · Retro note: oor"
+              "notes": null
             }
           ]
         },
@@ -3127,7 +3127,7 @@
               "mounting_hardware": null,
               "mounting_hardware_raw": "Mounted on Gate",
               "retro_day_r1": "F",
-              "notes": "Panel cond note: air · Sheet cond note: oor · Retro note: air · Damage: Sheet peeling"
+              "notes": "Damage: Sheet peeling"
             }
           ]
         },
@@ -3144,7 +3144,7 @@
             "post_breakaway": null,
             "post_breakaway_raw": "Boreholes",
             "post_condition": "G",
-            "post_condition_note": "ood",
+            "post_condition_note": null,
             "post_damage": []
           },
           "row_idx": 25,
@@ -3165,7 +3165,7 @@
               "mounting_hardware": "angled_brackets",
               "mounting_hardware_raw": null,
               "retro_day_r1": "G",
-              "notes": "Corrugated AL · Panel cond note: ood · Sheet cond note: air · Retro note: ood · Damage: Scuffing in the corner"
+              "notes": "Corrugated AL · Damage: Scuffing in the corner"
             }
           ]
         },
@@ -3182,7 +3182,7 @@
             "post_breakaway": "no",
             "post_breakaway_raw": null,
             "post_condition": "G",
-            "post_condition_note": "ood",
+            "post_condition_note": null,
             "post_damage": []
           },
           "row_idx": 26,
@@ -3203,7 +3203,7 @@
               "mounting_hardware": "carriage_bolts",
               "mounting_hardware_raw": null,
               "retro_day_r1": "E",
-              "notes": "ON Smokemont Road, 11' from 10S(1) EOP · Panel cond note: xcellent · Sheet cond note: xcellent · Retro note: xcellent"
+              "notes": "ON Smokemont Road, 11' from 10S(1) EOP"
             }
           ]
         },
@@ -3220,7 +3220,7 @@
             "post_breakaway": "no",
             "post_breakaway_raw": null,
             "post_condition": "G",
-            "post_condition_note": "ood",
+            "post_condition_note": null,
             "post_damage": []
           },
           "row_idx": 27,
@@ -3241,7 +3241,7 @@
               "mounting_hardware": "carriage_bolts",
               "mounting_hardware_raw": null,
               "retro_day_r1": "G",
-              "notes": "Piano Hinged, 17' from 10S(1) EOP, black text on orange · Panel cond note: ood · Sheet cond note: ood · Retro note: ood"
+              "notes": "Piano Hinged, 17' from 10S(1) EOP, black text on orange"
             }
           ]
         },
@@ -3258,7 +3258,7 @@
             "post_breakaway": null,
             "post_breakaway_raw": "Boreholes",
             "post_condition": "G",
-            "post_condition_note": "ood",
+            "post_condition_note": null,
             "post_damage": []
           },
           "row_idx": 20,
@@ -3279,7 +3279,7 @@
               "mounting_hardware": "angled_brackets",
               "mounting_hardware_raw": null,
               "retro_day_r1": "F",
-              "notes": "Corrugated Aluminum · Panel cond note: air · Sheet cond note: oor · Retro note: air · Damage: Panel rock damaged"
+              "notes": "Corrugated Aluminum · Damage: Panel rock damaged"
             }
           ]
         },
@@ -3319,7 +3319,7 @@
               "mounting_hardware": "angled_brackets",
               "mounting_hardware_raw": null,
               "retro_day_r1": "G",
-              "notes": "Piano Hinged, Corrugated AL · Panel cond note: air · Sheet cond note: ood · Retro note: ood"
+              "notes": "Piano Hinged, Corrugated AL"
             }
           ]
         },
@@ -3336,7 +3336,7 @@
             "post_breakaway": null,
             "post_breakaway_raw": null,
             "post_condition": "F",
-            "post_condition_note": "air",
+            "post_condition_note": null,
             "post_damage": []
           },
           "row_idx": 30,
@@ -3357,7 +3357,7 @@
               "mounting_hardware": "carriage_bolts",
               "mounting_hardware_raw": null,
               "retro_day_r1": "G",
-              "notes": "Panel cond note: ood · Sheet cond note: air · Retro note: ood · Damage: mildew on sheet"
+              "notes": "Damage: mildew on sheet"
             }
           ]
         },
@@ -3397,7 +3397,7 @@
               "mounting_hardware": "angled_brackets",
               "mounting_hardware_raw": null,
               "retro_day_r1": "G",
-              "notes": "Attached to a 12\" guiderail post (right), red on white · Panel cond note: air · Sheet cond note: ood · Retro note: ood"
+              "notes": "Attached to a 12\" guiderail post (right), red on white"
             }
           ]
         },
@@ -3435,7 +3435,7 @@
               "mounting_hardware": "angled_brackets",
               "mounting_hardware_raw": null,
               "retro_day_r1": "G",
-              "notes": "PIANO HINGED TO THE TOP PANEL, black letters on white sheet · Panel cond note: ood · Sheet cond note: ood · Retro note: ood"
+              "notes": "PIANO HINGED TO THE TOP PANEL, black letters on white sheet"
             }
           ]
         },
@@ -3473,7 +3473,7 @@
               "mounting_hardware": "carriage_bolts",
               "mounting_hardware_raw": null,
               "retro_day_r1": "G",
-              "notes": "Aluminum panel bolted on top of the \"13 Miles\" text · Panel cond note: ood · Sheet cond note: ood · Retro note: ood"
+              "notes": "Aluminum panel bolted on top of the \"13 Miles\" text"
             }
           ]
         },
@@ -3490,7 +3490,7 @@
             "post_breakaway": "no",
             "post_breakaway_raw": null,
             "post_condition": "G",
-            "post_condition_note": "ood",
+            "post_condition_note": null,
             "post_damage": []
           },
           "row_idx": 34,
@@ -3511,7 +3511,7 @@
               "mounting_hardware": "carriage_bolts",
               "mounting_hardware_raw": null,
               "retro_day_r1": "G",
-              "notes": "Hinged Panel (closed during Summer) (locked) One hinge damaged · Panel cond note: ood · Sheet cond note: ood · Retro note: ood · Damage: N/A"
+              "notes": "Hinged Panel (closed during Summer) (locked) One hinge damaged · Damage: N/A"
             }
           ]
         },
@@ -3528,7 +3528,7 @@
             "post_breakaway": "no",
             "post_breakaway_raw": null,
             "post_condition": "G",
-            "post_condition_note": "ood",
+            "post_condition_note": null,
             "post_damage": []
           },
           "row_idx": 35,
@@ -3551,7 +3551,7 @@
               "mounting_hardware": "carriage_bolts",
               "mounting_hardware_raw": null,
               "retro_day_r1": "G",
-              "notes": "Panel cond note: ood · Sheet cond note: air · Retro note: ood"
+              "notes": null
             }
           ]
         },
@@ -3568,7 +3568,7 @@
             "post_breakaway": "no",
             "post_breakaway_raw": null,
             "post_condition": "G",
-            "post_condition_note": "ood",
+            "post_condition_note": null,
             "post_damage": []
           },
           "row_idx": 36,
@@ -3591,7 +3591,7 @@
               "mounting_hardware": "carriage_bolts",
               "mounting_hardware_raw": null,
               "retro_day_r1": "P",
-              "notes": "Panel cond note: oor · Sheet cond note: oor · Retro note: oor"
+              "notes": null
             }
           ]
         },
@@ -3608,7 +3608,7 @@
             "post_breakaway": "no",
             "post_breakaway_raw": null,
             "post_condition": "G",
-            "post_condition_note": "ood",
+            "post_condition_note": null,
             "post_damage": []
           },
           "row_idx": 37,
@@ -3631,7 +3631,7 @@
               "mounting_hardware": "carriage_bolts",
               "mounting_hardware_raw": null,
               "retro_day_r1": null,
-              "notes": "Panel cond note: oor · Sheet cond note: air"
+              "notes": null
             }
           ]
         },
@@ -3671,7 +3671,7 @@
               "mounting_hardware": "carriage_bolts",
               "mounting_hardware_raw": null,
               "retro_day_r1": "F",
-              "notes": "Winged to the main panel acting as flags on either side (attached with aluminum angles) · Panel cond note: air · Sheet cond note: oor · Retro note: air"
+              "notes": "Winged to the main panel acting as flags on either side (attached with aluminum angles)"
             }
           ]
         },
@@ -3711,7 +3711,7 @@
               "mounting_hardware": "carriage_bolts",
               "mounting_hardware_raw": null,
               "retro_day_r1": "F",
-              "notes": "Winged to the main panel acting as flags on either side (attached with aluminum angles) · Panel cond note: air · Sheet cond note: oor · Retro note: air"
+              "notes": "Winged to the main panel acting as flags on either side (attached with aluminum angles)"
             }
           ]
         },
@@ -3728,7 +3728,7 @@
             "post_breakaway": "no",
             "post_breakaway_raw": null,
             "post_condition": "G",
-            "post_condition_note": "ood",
+            "post_condition_note": null,
             "post_damage": []
           },
           "row_idx": 40,
@@ -3751,7 +3751,7 @@
               "mounting_hardware": "carriage_bolts",
               "mounting_hardware_raw": null,
               "retro_day_r1": "F",
-              "notes": "Panel cond note: oor · Sheet cond note: oor · Retro note: air"
+              "notes": null
             }
           ]
         },
@@ -3789,7 +3789,7 @@
               "mounting_hardware": "carriage_bolts",
               "mounting_hardware_raw": null,
               "retro_day_r1": "F",
-              "notes": "Panel cond note: ood · Sheet cond note: oor · Retro note: air · Damage: Pealing"
+              "notes": "Damage: Pealing"
             }
           ]
         },
@@ -3806,7 +3806,7 @@
             "post_breakaway": "no",
             "post_breakaway_raw": null,
             "post_condition": "P",
-            "post_condition_note": "oor, Broken",
+            "post_condition_note": "Broken",
             "post_damage": []
           },
           "row_idx": 42,
@@ -3830,7 +3830,7 @@
               "mounting_hardware": "angled_brackets",
               "mounting_hardware_raw": null,
               "retro_day_r1": "P",
-              "notes": "Corrugated AL · Panel cond note: oor · Sheet cond note: oor · Retro note: oor"
+              "notes": "Corrugated AL"
             }
           ]
         },
@@ -3847,7 +3847,7 @@
             "post_breakaway": "no",
             "post_breakaway_raw": null,
             "post_condition": "P",
-            "post_condition_note": "oor, Leaning",
+            "post_condition_note": "Leaning",
             "post_damage": []
           },
           "row_idx": 43,
@@ -3885,7 +3885,7 @@
             "post_breakaway": "no",
             "post_breakaway_raw": null,
             "post_condition": "G",
-            "post_condition_note": "ood",
+            "post_condition_note": null,
             "post_damage": []
           },
           "row_idx": 44,
@@ -3906,7 +3906,7 @@
               "mounting_hardware": "carriage_bolts",
               "mounting_hardware_raw": null,
               "retro_day_r1": "P",
-              "notes": "On Tow String Horse Camp Road · Panel cond note: ood · Sheet cond note: oor · Retro note: oor · Damage: Peeling"
+              "notes": "On Tow String Horse Camp Road · Damage: Peeling"
             }
           ]
         },
@@ -3923,7 +3923,7 @@
             "post_breakaway": "no",
             "post_breakaway_raw": null,
             "post_condition": "F",
-            "post_condition_note": "air, Loose",
+            "post_condition_note": "Loose",
             "post_damage": []
           },
           "row_idx": 45,
@@ -3944,7 +3944,7 @@
               "mounting_hardware": "carriage_bolts",
               "mounting_hardware_raw": null,
               "retro_day_r1": "G",
-              "notes": "Panel cond note: ood · Sheet cond note: ood · Retro note: ood"
+              "notes": null
             }
           ]
         },
@@ -3961,7 +3961,7 @@
             "post_breakaway": "no",
             "post_breakaway_raw": null,
             "post_condition": "P",
-            "post_condition_note": "oor, Broken",
+            "post_condition_note": "Broken",
             "post_damage": []
           },
           "row_idx": 46,
@@ -3984,7 +3984,7 @@
               "mounting_hardware": "angled_brackets",
               "mounting_hardware_raw": null,
               "retro_day_r1": "G",
-              "notes": "Corrugated AL · Panel cond note: air · Sheet cond note: ood · Retro note: ood"
+              "notes": "Corrugated AL"
             }
           ]
         },
@@ -4001,7 +4001,7 @@
             "post_breakaway": "no",
             "post_breakaway_raw": null,
             "post_condition": "P",
-            "post_condition_note": "oor, Leaning",
+            "post_condition_note": "Leaning",
             "post_damage": []
           },
           "row_idx": 47,
@@ -4024,7 +4024,7 @@
               "mounting_hardware": "carriage_bolts",
               "mounting_hardware_raw": null,
               "retro_day_r1": "F",
-              "notes": "Panel cond note: air · Sheet cond note: air · Retro note: air"
+              "notes": null
             }
           ]
         },
@@ -4041,7 +4041,7 @@
             "post_breakaway": "no",
             "post_breakaway_raw": null,
             "post_condition": "P",
-            "post_condition_note": "oor, Leaning",
+            "post_condition_note": "Leaning",
             "post_damage": []
           },
           "row_idx": 48,
@@ -4064,7 +4064,7 @@
               "mounting_hardware": "carriage_bolts",
               "mounting_hardware_raw": null,
               "retro_day_r1": "G",
-              "notes": "Panel cond note: air · Sheet cond note: air · Retro note: ood"
+              "notes": null
             }
           ]
         },
@@ -4104,7 +4104,7 @@
               "mounting_hardware": "carriage_bolts",
               "mounting_hardware_raw": null,
               "retro_day_r1": "G",
-              "notes": "Panel cond note: air · Sheet cond note: air · Retro note: ood"
+              "notes": null
             }
           ]
         },
@@ -4121,7 +4121,7 @@
             "post_breakaway": "no",
             "post_breakaway_raw": null,
             "post_condition": "G",
-            "post_condition_note": "ood",
+            "post_condition_note": null,
             "post_damage": []
           },
           "row_idx": 50,
@@ -4142,7 +4142,7 @@
               "mounting_hardware": "carriage_bolts",
               "mounting_hardware_raw": null,
               "retro_day_r1": "P",
-              "notes": "Panel cond note: ood · Sheet cond note: air · Retro note: oor · Damage: mildew on sheet"
+              "notes": "Damage: mildew on sheet"
             }
           ]
         },
@@ -4159,7 +4159,7 @@
             "post_breakaway": "no",
             "post_breakaway_raw": null,
             "post_condition": "G",
-            "post_condition_note": "ood",
+            "post_condition_note": null,
             "post_damage": []
           },
           "row_idx": 51,
@@ -4183,7 +4183,7 @@
               "mounting_hardware": "angled_brackets",
               "mounting_hardware_raw": null,
               "retro_day_r1": "P",
-              "notes": "Corrugated AL · Panel cond note: oor · Sheet cond note: oor · Retro note: oor"
+              "notes": "Corrugated AL"
             }
           ]
         },
@@ -4200,7 +4200,7 @@
             "post_breakaway": null,
             "post_breakaway_raw": "Boreholes",
             "post_condition": "G",
-            "post_condition_note": "ood",
+            "post_condition_note": null,
             "post_damage": []
           },
           "row_idx": 52,
@@ -4223,7 +4223,7 @@
               "mounting_hardware": "angled_brackets",
               "mounting_hardware_raw": null,
               "retro_day_r1": "F",
-              "notes": "corrugated AL · Panel cond note: oor · Sheet cond note: oor · Retro note: air"
+              "notes": "corrugated AL"
             }
           ]
         },
@@ -4240,7 +4240,7 @@
             "post_breakaway": "no",
             "post_breakaway_raw": null,
             "post_condition": "G",
-            "post_condition_note": "ood",
+            "post_condition_note": null,
             "post_damage": []
           },
           "row_idx": 53,
@@ -4263,7 +4263,7 @@
               "mounting_hardware": "carriage_bolts",
               "mounting_hardware_raw": null,
               "retro_day_r1": "F",
-              "notes": "Panel cond note: oor · Sheet cond note: air · Retro note: air"
+              "notes": null
             }
           ]
         },
@@ -4280,7 +4280,7 @@
             "post_breakaway": "no",
             "post_breakaway_raw": null,
             "post_condition": "G",
-            "post_condition_note": "ood",
+            "post_condition_note": null,
             "post_damage": []
           },
           "row_idx": 54,
@@ -4303,7 +4303,7 @@
               "mounting_hardware": "carriage_bolts",
               "mounting_hardware_raw": null,
               "retro_day_r1": "F",
-              "notes": "Panel cond note: air · Sheet cond note: air · Retro note: air"
+              "notes": null
             }
           ]
         }
@@ -4347,7 +4347,7 @@
               "mounting_hardware": "carriage_bolts",
               "mounting_hardware_raw": null,
               "retro_day_r1": "G",
-              "notes": "On Mingus Mill Road · Retro note: ood"
+              "notes": "On Mingus Mill Road"
             }
           ]
         },
@@ -4385,7 +4385,7 @@
               "mounting_hardware": "angled_brackets",
               "mounting_hardware_raw": null,
               "retro_day_r1": "G",
-              "notes": "Corrugated AL · Retro note: ood"
+              "notes": "Corrugated AL"
             }
           ]
         },
@@ -4425,7 +4425,7 @@
               "mounting_hardware": "angled_brackets",
               "mounting_hardware_raw": null,
               "retro_day_r1": "G",
-              "notes": "Panel Has slide channel (debonded), Corrugated AL · Retro note: ood"
+              "notes": "Panel Has slide channel (debonded), Corrugated AL"
             }
           ]
         },
@@ -4465,7 +4465,7 @@
               "mounting_hardware": "angled_brackets",
               "mounting_hardware_raw": null,
               "retro_day_r1": "G",
-              "notes": "Corrugated AL · Retro note: ood"
+              "notes": "Corrugated AL"
             }
           ]
         },
@@ -4503,7 +4503,7 @@
               "mounting_hardware": "carriage_bolts",
               "mounting_hardware_raw": null,
               "retro_day_r1": "F",
-              "notes": "Needs Cleaning · Retro note: air · Damage: Peeling"
+              "notes": "Needs Cleaning · Damage: Peeling"
             }
           ]
         },
@@ -4541,7 +4541,7 @@
               "mounting_hardware": "angled_brackets",
               "mounting_hardware_raw": null,
               "retro_day_r1": "G",
-              "notes": "Corrugated AL · Retro note: ood"
+              "notes": "Corrugated AL"
             }
           ]
         },
@@ -4579,7 +4579,7 @@
               "mounting_hardware": "carriage_bolts",
               "mounting_hardware_raw": null,
               "retro_day_r1": "F",
-              "notes": "On Job Corps Center Rd · Retro note: air · Damage: Mildew on Sheeting"
+              "notes": "On Job Corps Center Rd · Damage: Mildew on Sheeting"
             }
           ]
         },
@@ -4617,7 +4617,7 @@
               "mounting_hardware": "carriage_bolts",
               "mounting_hardware_raw": null,
               "retro_day_r1": "G",
-              "notes": "Retro note: ood"
+              "notes": null
             }
           ]
         },
@@ -5200,7 +5200,7 @@
             "post_breakaway": "no",
             "post_breakaway_raw": null,
             "post_condition": "P",
-            "post_condition_note": "oor (Loose in ground",
+            "post_condition_note": "Loose in ground",
             "post_damage": []
           },
           "row_idx": 1,
@@ -5223,7 +5223,7 @@
               "mounting_hardware": "carriage_bolts",
               "mounting_hardware_raw": null,
               "retro_day_r1": "G",
-              "notes": "Retro note: ood"
+              "notes": null
             },
             {
               "facing_degrees": 180,
@@ -5242,7 +5242,7 @@
               "mounting_hardware": "carriage_bolts",
               "mounting_hardware_raw": null,
               "retro_day_r1": "G",
-              "notes": "Retro note: ood"
+              "notes": null
             },
             {
               "facing_degrees": 180,
@@ -5261,7 +5261,7 @@
               "mounting_hardware": "carriage_bolts",
               "mounting_hardware_raw": null,
               "retro_day_r1": "G",
-              "notes": "Retro note: ood"
+              "notes": null
             }
           ]
         },
@@ -5278,7 +5278,7 @@
             "post_breakaway": "no",
             "post_breakaway_raw": null,
             "post_condition": "G",
-            "post_condition_note": "ood",
+            "post_condition_note": null,
             "post_damage": []
           },
           "row_idx": 2,
@@ -5299,7 +5299,7 @@
               "mounting_hardware": "carriage_bolts",
               "mounting_hardware_raw": null,
               "retro_day_r1": "G",
-              "notes": "Retro note: ood"
+              "notes": null
             }
           ]
         },
@@ -5316,7 +5316,7 @@
             "post_breakaway": "no",
             "post_breakaway_raw": null,
             "post_condition": "G",
-            "post_condition_note": "ood",
+            "post_condition_note": null,
             "post_damage": []
           },
           "row_idx": 3,
@@ -5337,7 +5337,7 @@
               "mounting_hardware": "carriage_bolts",
               "mounting_hardware_raw": null,
               "retro_day_r1": "G",
-              "notes": "Retro note: ood"
+              "notes": null
             }
           ]
         },
@@ -5354,7 +5354,7 @@
             "post_breakaway": "yes",
             "post_breakaway_raw": null,
             "post_condition": "G",
-            "post_condition_note": "ood",
+            "post_condition_note": null,
             "post_damage": []
           },
           "row_idx": 4,
@@ -5375,7 +5375,7 @@
               "mounting_hardware": "angled_brackets",
               "mounting_hardware_raw": null,
               "retro_day_r1": "G",
-              "notes": "Corrugated AL, Slide size 4 x 51\" · Retro note: ood"
+              "notes": "Corrugated AL, Slide size 4 x 51\""
             }
           ]
         },
@@ -5392,7 +5392,7 @@
             "post_breakaway": "no",
             "post_breakaway_raw": null,
             "post_condition": "G",
-            "post_condition_note": "ood",
+            "post_condition_note": null,
             "post_damage": []
           },
           "row_idx": 5,
@@ -5413,7 +5413,7 @@
               "mounting_hardware": "carriage_bolts",
               "mounting_hardware_raw": null,
               "retro_day_r1": "G",
-              "notes": "Retro note: ood"
+              "notes": null
             }
           ]
         },
@@ -5430,7 +5430,7 @@
             "post_breakaway": "no",
             "post_breakaway_raw": null,
             "post_condition": "G",
-            "post_condition_note": "ood",
+            "post_condition_note": null,
             "post_damage": []
           },
           "row_idx": 6,
@@ -5453,7 +5453,7 @@
               "mounting_hardware": "carriage_bolts",
               "mounting_hardware_raw": null,
               "retro_day_r1": "G",
-              "notes": "Retro note: ood"
+              "notes": null
             }
           ]
         },
@@ -5470,7 +5470,7 @@
             "post_breakaway": "yes",
             "post_breakaway_raw": null,
             "post_condition": "G",
-            "post_condition_note": "ood",
+            "post_condition_note": null,
             "post_damage": []
           },
           "row_idx": 7,
@@ -5493,7 +5493,7 @@
               "mounting_hardware": "angled_brackets",
               "mounting_hardware_raw": null,
               "retro_day_r1": "G",
-              "notes": "corrugated AL · Retro note: ood"
+              "notes": "corrugated AL"
             },
             {
               "facing_degrees": 0,
@@ -5512,7 +5512,7 @@
               "mounting_hardware": "carriage_bolts",
               "mounting_hardware_raw": null,
               "retro_day_r1": "P",
-              "notes": "Retro note: oor"
+              "notes": null
             }
           ]
         },
@@ -5529,7 +5529,7 @@
             "post_breakaway": "no",
             "post_breakaway_raw": null,
             "post_condition": "G",
-            "post_condition_note": "ood",
+            "post_condition_note": null,
             "post_damage": []
           },
           "row_idx": 8,
@@ -5553,7 +5553,7 @@
               "mounting_hardware": "carriage_bolts",
               "mounting_hardware_raw": null,
               "retro_day_r1": "F",
-              "notes": "Retro note: air"
+              "notes": null
             },
             {
               "facing_degrees": 0,
@@ -5572,7 +5572,7 @@
               "mounting_hardware": "carriage_bolts",
               "mounting_hardware_raw": null,
               "retro_day_r1": "F",
-              "notes": "Retro note: air"
+              "notes": null
             }
           ]
         },
@@ -5589,7 +5589,7 @@
             "post_breakaway": "yes",
             "post_breakaway_raw": null,
             "post_condition": "G",
-            "post_condition_note": "ood",
+            "post_condition_note": null,
             "post_damage": []
           },
           "row_idx": 10,
@@ -5610,7 +5610,7 @@
               "mounting_hardware": "angled_brackets",
               "mounting_hardware_raw": null,
               "retro_day_r1": "G",
-              "notes": "Corrugated AL · Retro note: ood"
+              "notes": "Corrugated AL"
             }
           ]
         },
@@ -5627,7 +5627,7 @@
             "post_breakaway": "no",
             "post_breakaway_raw": null,
             "post_condition": "G",
-            "post_condition_note": "ood",
+            "post_condition_note": null,
             "post_damage": []
           },
           "row_idx": 11,
@@ -5650,7 +5650,7 @@
               "mounting_hardware": "carriage_bolts",
               "mounting_hardware_raw": null,
               "retro_day_r1": "G",
-              "notes": "Retro note: ood"
+              "notes": null
             }
           ]
         },
@@ -5667,7 +5667,7 @@
             "post_breakaway": "no",
             "post_breakaway_raw": null,
             "post_condition": "G",
-            "post_condition_note": "ood",
+            "post_condition_note": null,
             "post_damage": []
           },
           "row_idx": 12,
@@ -5690,7 +5690,7 @@
               "mounting_hardware": "carriage_bolts",
               "mounting_hardware_raw": null,
               "retro_day_r1": "P",
-              "notes": "Retro note: oor"
+              "notes": null
             }
           ]
         },
@@ -5707,7 +5707,7 @@
             "post_breakaway": "yes",
             "post_breakaway_raw": null,
             "post_condition": "G",
-            "post_condition_note": "ood",
+            "post_condition_note": null,
             "post_damage": []
           },
           "row_idx": 13,
@@ -5730,7 +5730,7 @@
               "mounting_hardware": "angled_brackets",
               "mounting_hardware_raw": null,
               "retro_day_r1": "G",
-              "notes": "Corrugated AL · Retro note: ood"
+              "notes": "Corrugated AL"
             }
           ]
         },
@@ -5747,7 +5747,7 @@
             "post_breakaway": "no",
             "post_breakaway_raw": null,
             "post_condition": "G",
-            "post_condition_note": "ood",
+            "post_condition_note": null,
             "post_damage": []
           },
           "row_idx": 14,
@@ -5770,7 +5770,7 @@
               "mounting_hardware": "carriage_bolts",
               "mounting_hardware_raw": null,
               "retro_day_r1": "G",
-              "notes": "Retro note: ood"
+              "notes": null
             }
           ]
         },
@@ -5787,7 +5787,7 @@
             "post_breakaway": "no",
             "post_breakaway_raw": null,
             "post_condition": "P",
-            "post_condition_note": "oor (Loose, leaning",
+            "post_condition_note": "Loose, leaning",
             "post_damage": []
           },
           "row_idx": 15,
@@ -5810,7 +5810,7 @@
               "mounting_hardware": "carriage_bolts",
               "mounting_hardware_raw": null,
               "retro_day_r1": "G",
-              "notes": "Retro note: ood"
+              "notes": null
             }
           ]
         },
@@ -5827,7 +5827,7 @@
             "post_breakaway": "no",
             "post_breakaway_raw": null,
             "post_condition": "G",
-            "post_condition_note": "ood",
+            "post_condition_note": null,
             "post_damage": []
           },
           "row_idx": 16,
@@ -5848,7 +5848,7 @@
               "mounting_hardware": "carriage_bolts",
               "mounting_hardware_raw": null,
               "retro_day_r1": "G",
-              "notes": "Retro note: ood"
+              "notes": null
             }
           ]
         },
@@ -5865,7 +5865,7 @@
             "post_breakaway": "no",
             "post_breakaway_raw": null,
             "post_condition": "G",
-            "post_condition_note": "ood",
+            "post_condition_note": null,
             "post_damage": []
           },
           "row_idx": 17,
@@ -5888,7 +5888,7 @@
               "mounting_hardware": "carriage_bolts",
               "mounting_hardware_raw": null,
               "retro_day_r1": "G",
-              "notes": "Retro note: ood"
+              "notes": null
             }
           ]
         },
@@ -5905,7 +5905,7 @@
             "post_breakaway": "no",
             "post_breakaway_raw": null,
             "post_condition": "G",
-            "post_condition_note": "ood",
+            "post_condition_note": null,
             "post_damage": []
           },
           "row_idx": 18,
@@ -5928,7 +5928,7 @@
               "mounting_hardware": "carriage_bolts",
               "mounting_hardware_raw": null,
               "retro_day_r1": "G",
-              "notes": "Retro note: ood"
+              "notes": null
             }
           ]
         },
@@ -5945,7 +5945,7 @@
             "post_breakaway": "no",
             "post_breakaway_raw": null,
             "post_condition": "G",
-            "post_condition_note": "ood",
+            "post_condition_note": null,
             "post_damage": []
           },
           "row_idx": 19,
@@ -5966,7 +5966,7 @@
               "mounting_hardware": "carriage_bolts",
               "mounting_hardware_raw": null,
               "retro_day_r1": "G",
-              "notes": "Retro note: ood"
+              "notes": null
             }
           ]
         },
@@ -6229,7 +6229,7 @@
             "post_breakaway": "yes",
             "post_breakaway_raw": null,
             "post_condition": "F",
-            "post_condition_note": "air",
+            "post_condition_note": null,
             "post_damage": []
           },
           "row_idx": 1,
@@ -6252,7 +6252,7 @@
               "mounting_hardware": "angled_brackets",
               "mounting_hardware_raw": null,
               "retro_day_r1": "G",
-              "notes": "corrugated AL · Retro note: ood"
+              "notes": "corrugated AL"
             },
             {
               "facing_degrees": 0,
@@ -6271,7 +6271,7 @@
               "mounting_hardware": "carriage_bolts",
               "mounting_hardware_raw": null,
               "retro_day_r1": "P",
-              "notes": "Retro note: oor"
+              "notes": null
             }
           ]
         },
@@ -6288,7 +6288,7 @@
             "post_breakaway": "yes",
             "post_breakaway_raw": null,
             "post_condition": "G",
-            "post_condition_note": "ood",
+            "post_condition_note": null,
             "post_damage": []
           },
           "row_idx": 2,
@@ -6311,7 +6311,7 @@
               "mounting_hardware": "carriage_bolts",
               "mounting_hardware_raw": null,
               "retro_day_r1": "G",
-              "notes": "Retro note: ood"
+              "notes": null
             }
           ]
         },
@@ -6389,7 +6389,7 @@
               "mounting_hardware": "angled_brackets",
               "mounting_hardware_raw": null,
               "retro_day_r1": "G",
-              "notes": "corrugated AL · Retro note: ood"
+              "notes": "corrugated AL"
             }
           ]
         },
@@ -6406,7 +6406,7 @@
             "post_breakaway": "no",
             "post_breakaway_raw": null,
             "post_condition": "G",
-            "post_condition_note": "ood",
+            "post_condition_note": null,
             "post_damage": []
           },
           "row_idx": 5,
@@ -6429,7 +6429,7 @@
               "mounting_hardware": "carriage_bolts",
               "mounting_hardware_raw": null,
               "retro_day_r1": "G",
-              "notes": "Retro note: ood"
+              "notes": null
             }
           ]
         },
@@ -6446,7 +6446,7 @@
             "post_breakaway": "yes",
             "post_breakaway_raw": null,
             "post_condition": "G",
-            "post_condition_note": "ood",
+            "post_condition_note": null,
             "post_damage": []
           },
           "row_idx": 6,
@@ -6467,7 +6467,7 @@
               "mounting_hardware": "carriage_bolts",
               "mounting_hardware_raw": null,
               "retro_day_r1": "G",
-              "notes": "Retro note: ood"
+              "notes": null
             },
             {
               "facing_degrees": null,
@@ -6501,7 +6501,7 @@
             "post_breakaway": "no",
             "post_breakaway_raw": null,
             "post_condition": "G",
-            "post_condition_note": "ood",
+            "post_condition_note": null,
             "post_damage": []
           },
           "row_idx": 7,
@@ -6524,7 +6524,7 @@
               "mounting_hardware": "carriage_bolts",
               "mounting_hardware_raw": null,
               "retro_day_r1": "G",
-              "notes": "Retro note: ood"
+              "notes": null
             }
           ]
         },
@@ -6541,7 +6541,7 @@
             "post_breakaway": "no",
             "post_breakaway_raw": null,
             "post_condition": "F",
-            "post_condition_note": "air",
+            "post_condition_note": null,
             "post_damage": []
           },
           "row_idx": 8,
@@ -6562,7 +6562,7 @@
               "mounting_hardware": "carriage_bolts",
               "mounting_hardware_raw": null,
               "retro_day_r1": "P",
-              "notes": "Retro note: oor · Damage: Faided"
+              "notes": "Damage: Faided"
             },
             {
               "facing_degrees": 0,
@@ -6581,7 +6581,7 @@
               "mounting_hardware": "carriage_bolts",
               "mounting_hardware_raw": null,
               "retro_day_r1": "F",
-              "notes": "Retro note: air"
+              "notes": null
             }
           ]
         },
@@ -6598,7 +6598,7 @@
             "post_breakaway": "yes",
             "post_breakaway_raw": null,
             "post_condition": "G",
-            "post_condition_note": "ood",
+            "post_condition_note": null,
             "post_damage": []
           },
           "row_idx": 9,
@@ -6621,7 +6621,7 @@
               "mounting_hardware": "angled_brackets",
               "mounting_hardware_raw": null,
               "retro_day_r1": "F",
-              "notes": "corrugated AL · Retro note: air"
+              "notes": "corrugated AL"
             }
           ]
         },
@@ -6638,7 +6638,7 @@
             "post_breakaway": "no",
             "post_breakaway_raw": null,
             "post_condition": "G",
-            "post_condition_note": "ood",
+            "post_condition_note": null,
             "post_damage": []
           },
           "row_idx": 10,
@@ -6661,7 +6661,7 @@
               "mounting_hardware": "carriage_bolts",
               "mounting_hardware_raw": null,
               "retro_day_r1": "F",
-              "notes": "Retro note: air"
+              "notes": null
             }
           ]
         },
@@ -6678,7 +6678,7 @@
             "post_breakaway": "no",
             "post_breakaway_raw": null,
             "post_condition": "F",
-            "post_condition_note": "air",
+            "post_condition_note": null,
             "post_damage": []
           },
           "row_idx": 11,
@@ -6701,7 +6701,7 @@
               "mounting_hardware": "carriage_bolts",
               "mounting_hardware_raw": null,
               "retro_day_r1": "F",
-              "notes": "Retro note: air"
+              "notes": null
             }
           ]
         },
@@ -6718,7 +6718,7 @@
             "post_breakaway": "yes",
             "post_breakaway_raw": null,
             "post_condition": "P",
-            "post_condition_note": "oor (loose in ground, rotting",
+            "post_condition_note": "loose in ground, rotting",
             "post_damage": []
           },
           "row_idx": 12,
@@ -6742,7 +6742,7 @@
               "mounting_hardware": "angled_brackets",
               "mounting_hardware_raw": null,
               "retro_day_r1": "P",
-              "notes": "corrugated AL · Retro note: oor"
+              "notes": "corrugated AL"
             }
           ]
         },
@@ -6759,7 +6759,7 @@
             "post_breakaway": "no",
             "post_breakaway_raw": null,
             "post_condition": "G",
-            "post_condition_note": "ood",
+            "post_condition_note": null,
             "post_damage": []
           },
           "row_idx": 13,
@@ -6780,7 +6780,7 @@
               "mounting_hardware": "carriage_bolts",
               "mounting_hardware_raw": null,
               "retro_day_r1": "F",
-              "notes": "Retro note: air · Damage: Peeling"
+              "notes": "Damage: Peeling"
             }
           ]
         },
@@ -6797,7 +6797,7 @@
             "post_breakaway": "yes",
             "post_breakaway_raw": null,
             "post_condition": "G",
-            "post_condition_note": "ood",
+            "post_condition_note": null,
             "post_damage": []
           },
           "row_idx": 14,
@@ -6818,7 +6818,7 @@
               "mounting_hardware": "angled_brackets",
               "mounting_hardware_raw": null,
               "retro_day_r1": "G",
-              "notes": "Corrugated AL, Slide size 4 x 51\" · Retro note: ood · Damage: Peeling"
+              "notes": "Corrugated AL, Slide size 4 x 51\" · Damage: Peeling"
             }
           ]
         },
@@ -6835,7 +6835,7 @@
             "post_breakaway": "no",
             "post_breakaway_raw": null,
             "post_condition": "G",
-            "post_condition_note": "ood",
+            "post_condition_note": null,
             "post_damage": []
           },
           "row_idx": 15,
@@ -6858,7 +6858,7 @@
               "mounting_hardware": "carriage_bolts",
               "mounting_hardware_raw": null,
               "retro_day_r1": "F",
-              "notes": "Retro note: air"
+              "notes": null
             },
             {
               "facing_degrees": 270,
@@ -6877,7 +6877,7 @@
               "mounting_hardware": "carriage_bolts",
               "mounting_hardware_raw": null,
               "retro_day_r1": "G",
-              "notes": "Retro note: ood"
+              "notes": null
             }
           ]
         },
@@ -6894,7 +6894,7 @@
             "post_breakaway": "no",
             "post_breakaway_raw": null,
             "post_condition": "G",
-            "post_condition_note": "ood",
+            "post_condition_note": null,
             "post_damage": []
           },
           "row_idx": 16,
@@ -6917,7 +6917,7 @@
               "mounting_hardware": "carriage_bolts",
               "mounting_hardware_raw": null,
               "retro_day_r1": "F",
-              "notes": "Retro note: air"
+              "notes": null
             },
             {
               "facing_degrees": 240,
@@ -6934,7 +6934,7 @@
               "mounting_hardware": "carriage_bolts",
               "mounting_hardware_raw": null,
               "retro_day_r1": "G",
-              "notes": "Retro note: ood"
+              "notes": null
             }
           ]
         },
@@ -6951,7 +6951,7 @@
             "post_breakaway": "no",
             "post_breakaway_raw": null,
             "post_condition": "G",
-            "post_condition_note": "ood",
+            "post_condition_note": null,
             "post_damage": []
           },
           "row_idx": 17,
@@ -6974,7 +6974,7 @@
               "mounting_hardware": "carriage_bolts",
               "mounting_hardware_raw": null,
               "retro_day_r1": "G",
-              "notes": "Retro note: ood"
+              "notes": null
             }
           ]
         },
@@ -6991,7 +6991,7 @@
             "post_breakaway": "no",
             "post_breakaway_raw": null,
             "post_condition": "F",
-            "post_condition_note": "air (leaning, loose in ground",
+            "post_condition_note": "leaning, loose in ground",
             "post_damage": []
           },
           "row_idx": 18,
@@ -7015,7 +7015,7 @@
               "mounting_hardware": "carriage_bolts",
               "mounting_hardware_raw": null,
               "retro_day_r1": "P",
-              "notes": "Retro note: oor"
+              "notes": null
             },
             {
               "facing_degrees": 240,
@@ -7034,7 +7034,7 @@
               "mounting_hardware": "carriage_bolts",
               "mounting_hardware_raw": null,
               "retro_day_r1": "G",
-              "notes": "Retro note: ood"
+              "notes": null
             }
           ]
         },
@@ -7051,7 +7051,7 @@
             "post_breakaway": "no",
             "post_breakaway_raw": null,
             "post_condition": "G",
-            "post_condition_note": "ood",
+            "post_condition_note": null,
             "post_damage": []
           },
           "row_idx": 19,
@@ -7072,7 +7072,7 @@
               "mounting_hardware": "carriage_bolts",
               "mounting_hardware_raw": null,
               "retro_day_r1": "F",
-              "notes": "Retro note: air · Damage: Mildew"
+              "notes": "Damage: Mildew"
             }
           ]
         },
@@ -7089,7 +7089,7 @@
             "post_breakaway": "no",
             "post_breakaway_raw": null,
             "post_condition": "G",
-            "post_condition_note": "ood",
+            "post_condition_note": null,
             "post_damage": []
           },
           "row_idx": 20,
@@ -7112,7 +7112,7 @@
               "mounting_hardware": "carriage_bolts",
               "mounting_hardware_raw": null,
               "retro_day_r1": "G",
-              "notes": "Retro note: ood"
+              "notes": null
             }
           ]
         },
@@ -7295,7 +7295,7 @@
             "post_breakaway": "no",
             "post_breakaway_raw": null,
             "post_condition": "F",
-            "post_condition_note": "air",
+            "post_condition_note": null,
             "post_damage": []
           },
           "row_idx": 1,
@@ -7319,7 +7319,7 @@
               "mounting_hardware": "carriage_bolts",
               "mounting_hardware_raw": null,
               "retro_day_r1": "P",
-              "notes": "\"Warning\" in Black over Yellow, rest is white text on brown · Panel cond note: oor · Sheet cond note: oor · Retro note: oor"
+              "notes": "\"Warning\" in Black over Yellow, rest is white text on brown"
             }
           ]
         },
@@ -7360,7 +7360,7 @@
               "mounting_hardware": "carriage_bolts",
               "mounting_hardware_raw": null,
               "retro_day_r1": "P",
-              "notes": "Covered with Brown Plywood cover during summer, Black on yellow · Panel cond note: oor · Sheet cond note: oor · Retro note: oor"
+              "notes": "Covered with Brown Plywood cover during summer, Black on yellow"
             }
           ]
         },
@@ -7377,7 +7377,7 @@
             "post_breakaway": null,
             "post_breakaway_raw": "Boreholes",
             "post_condition": "P",
-            "post_condition_note": "oor, Roted",
+            "post_condition_note": "Roted",
             "post_damage": []
           },
           "row_idx": 3,
@@ -7400,7 +7400,7 @@
               "mounting_hardware": "angled_brackets",
               "mounting_hardware_raw": null,
               "retro_day_r1": "F",
-              "notes": "Corrugated AL · Panel cond note: air · Sheet cond note: ood · Retro note: air"
+              "notes": "Corrugated AL"
             }
           ]
         },
@@ -7417,7 +7417,7 @@
             "post_breakaway": "no",
             "post_breakaway_raw": null,
             "post_condition": "G",
-            "post_condition_note": "ood",
+            "post_condition_note": null,
             "post_damage": []
           },
           "row_idx": 4,
@@ -7440,7 +7440,7 @@
               "mounting_hardware": "angled_brackets",
               "mounting_hardware_raw": null,
               "retro_day_r1": "F",
-              "notes": "Corrugated AL · Panel cond note: air · Sheet cond note: oor · Retro note: air"
+              "notes": "Corrugated AL"
             }
           ]
         },
@@ -7457,7 +7457,7 @@
             "post_breakaway": "no",
             "post_breakaway_raw": null,
             "post_condition": "F",
-            "post_condition_note": "air",
+            "post_condition_note": null,
             "post_damage": []
           },
           "row_idx": 5,
@@ -7480,7 +7480,7 @@
               "mounting_hardware": "carriage_bolts",
               "mounting_hardware_raw": null,
               "retro_day_r1": "F",
-              "notes": "Panel cond note: oor · Sheet cond note: air · Retro note: air"
+              "notes": null
             }
           ]
         },
@@ -7497,7 +7497,7 @@
             "post_breakaway": "no",
             "post_breakaway_raw": null,
             "post_condition": "G",
-            "post_condition_note": "ood",
+            "post_condition_note": null,
             "post_damage": []
           },
           "row_idx": 6,
@@ -7518,7 +7518,7 @@
               "mounting_hardware": "carriage_bolts",
               "mounting_hardware_raw": null,
               "retro_day_r1": "P",
-              "notes": "On Big Cove Connector Road · Panel cond note: ood · Sheet cond note: ood · Retro note: oor · Damage: Mildew on sheet"
+              "notes": "On Big Cove Connector Road · Damage: Mildew on sheet"
             }
           ]
         },
@@ -7535,7 +7535,7 @@
             "post_breakaway": "no",
             "post_breakaway_raw": null,
             "post_condition": "E",
-            "post_condition_note": "xcellent",
+            "post_condition_note": null,
             "post_damage": []
           },
           "row_idx": 7,
@@ -7556,7 +7556,7 @@
               "mounting_hardware": "carriage_bolts",
               "mounting_hardware_raw": null,
               "retro_day_r1": "E",
-              "notes": "Solar panel w. LED lights · Panel cond note: xcellent · Sheet cond note: xcellent · Retro note: xcellent"
+              "notes": "Solar panel w. LED lights"
             }
           ]
         },
@@ -7573,7 +7573,7 @@
             "post_breakaway": "no",
             "post_breakaway_raw": null,
             "post_condition": "G",
-            "post_condition_note": "ood",
+            "post_condition_note": null,
             "post_damage": []
           },
           "row_idx": 8,
@@ -7596,7 +7596,7 @@
               "mounting_hardware": "carriage_bolts",
               "mounting_hardware_raw": null,
               "retro_day_r1": "P",
-              "notes": "Panel cond note: ood · Sheet cond note: oor · Retro note: oor"
+              "notes": null
             }
           ]
         },
@@ -7613,7 +7613,7 @@
             "post_breakaway": null,
             "post_breakaway_raw": "Boreholes",
             "post_condition": "G",
-            "post_condition_note": "ood",
+            "post_condition_note": null,
             "post_damage": []
           },
           "row_idx": 9,
@@ -7636,7 +7636,7 @@
               "mounting_hardware": "angled_brackets",
               "mounting_hardware_raw": null,
               "retro_day_r1": "P",
-              "notes": "Panel cond note: ood · Sheet cond note: oor · Retro note: oor"
+              "notes": null
             }
           ]
         },
@@ -8579,7 +8579,7 @@
             "post_breakaway": "no",
             "post_breakaway_raw": null,
             "post_condition": "G",
-            "post_condition_note": "ood",
+            "post_condition_note": null,
             "post_damage": []
           },
           "row_idx": 1,
@@ -8602,7 +8602,7 @@
               "mounting_hardware": "carriage_bolts",
               "mounting_hardware_raw": null,
               "retro_day_r1": "G",
-              "notes": "Panel cond note: oor · Sheet cond note: air · Retro note: ood"
+              "notes": null
             }
           ]
         },
@@ -8619,7 +8619,7 @@
             "post_breakaway": "no",
             "post_breakaway_raw": null,
             "post_condition": "F",
-            "post_condition_note": "air",
+            "post_condition_note": null,
             "post_damage": []
           },
           "row_idx": 2,
@@ -8640,7 +8640,7 @@
               "mounting_hardware": "carriage_bolts",
               "mounting_hardware_raw": null,
               "retro_day_r1": "F",
-              "notes": "Panel cond note: ood · Sheet cond note: air · Retro note: air"
+              "notes": null
             }
           ]
         },
@@ -8657,7 +8657,7 @@
             "post_breakaway": null,
             "post_breakaway_raw": "borehole",
             "post_condition": "G",
-            "post_condition_note": "ood",
+            "post_condition_note": null,
             "post_damage": []
           },
           "row_idx": 3,
@@ -8668,7 +8668,7 @@
               "panel_description": "Warning| Avoid Parking during fog",
               "panel_size": "42\" x 36\"",
               "panel_condition": "G",
-              "sheeting_condition": "P",
+              "sheeting_condition": null,
               "damage_flags": [],
               "damage_text": "Sheeting Peeling",
               "sheeting_type": null,
@@ -8678,7 +8678,7 @@
               "mounting_hardware": "carriage_bolts",
               "mounting_hardware_raw": null,
               "retro_day_r1": "P",
-              "notes": "Black on Yellow · Panel cond note: ood · Sheet cond note: oo · Retro note: oor · Damage: Sheeting Peeling"
+              "notes": "Black on Yellow · Sheet cond note: Poo · Damage: Sheeting Peeling"
             }
           ]
         },
@@ -8716,7 +8716,7 @@
               "mounting_hardware": "carriage_bolts",
               "mounting_hardware_raw": null,
               "retro_day_r1": "F",
-              "notes": "Panel cond note: ood · Sheet cond note: air · Retro note: air"
+              "notes": null
             }
           ]
         },
@@ -8754,7 +8754,7 @@
               "mounting_hardware": "carriage_bolts",
               "mounting_hardware_raw": null,
               "retro_day_r1": "F",
-              "notes": "Panel cond note: ood · Sheet cond note: ood · Retro note: air · Damage: mildew"
+              "notes": "Damage: mildew"
             }
           ]
         },
@@ -8792,7 +8792,7 @@
               "mounting_hardware": "carriage_bolts",
               "mounting_hardware_raw": null,
               "retro_day_r1": "P",
-              "notes": "Panel cond note: ood · Sheet cond note: ood · Retro note: oor · Damage: mildew"
+              "notes": "Damage: mildew"
             }
           ]
         },
@@ -8830,7 +8830,7 @@
               "mounting_hardware": "carriage_bolts",
               "mounting_hardware_raw": null,
               "retro_day_r1": "P",
-              "notes": "Panel cond note: air · Sheet cond note: air · Retro note: oor · Damage: mildew"
+              "notes": "Damage: mildew"
             }
           ]
         },
@@ -8868,7 +8868,7 @@
               "mounting_hardware": "carriage_bolts",
               "mounting_hardware_raw": null,
               "retro_day_r1": "P",
-              "notes": "Panel cond note: air · Sheet cond note: air · Retro note: oor · Damage: mildew"
+              "notes": "Damage: mildew"
             }
           ]
         },
@@ -8906,7 +8906,7 @@
               "mounting_hardware": "carriage_bolts",
               "mounting_hardware_raw": null,
               "retro_day_r1": "P",
-              "notes": "Panel cond note: air · Sheet cond note: air · Retro note: oor · Damage: mildew"
+              "notes": "Damage: mildew"
             }
           ]
         },
@@ -8923,7 +8923,7 @@
             "post_breakaway": "yes",
             "post_breakaway_raw": null,
             "post_condition": "P",
-            "post_condition_note": "oor",
+            "post_condition_note": null,
             "post_damage": []
           },
           "row_idx": 10,
@@ -8934,7 +8934,7 @@
               "panel_description": "to 441 North ->| GRSM",
               "panel_size": "60\" x 102\"",
               "panel_condition": "P",
-              "sheeting_condition": "P",
+              "sheeting_condition": null,
               "damage_flags": [
                 "BENT",
                 "CRACKED"
@@ -8947,7 +8947,7 @@
               "mounting_hardware": "carriage_bolts",
               "mounting_hardware_raw": null,
               "retro_day_r1": "P",
-              "notes": "Panel cond note: oor · Sheet cond note: oo · Retro note: oor"
+              "notes": "Sheet cond note: Poo"
             }
           ]
         },
@@ -8964,7 +8964,7 @@
             "post_breakaway": "no",
             "post_breakaway_raw": null,
             "post_condition": "F",
-            "post_condition_note": "air, timber damage",
+            "post_condition_note": "timber damage",
             "post_damage": []
           },
           "row_idx": 11,
@@ -8985,7 +8985,7 @@
               "mounting_hardware": "carriage_bolts",
               "mounting_hardware_raw": null,
               "retro_day_r1": "F",
-              "notes": "Panel cond note: ood · Sheet cond note: air · Retro note: air · Damage: peeling"
+              "notes": "Damage: peeling"
             }
           ]
         },
@@ -9002,7 +9002,7 @@
             "post_breakaway": "no",
             "post_breakaway_raw": null,
             "post_condition": "G",
-            "post_condition_note": "ood",
+            "post_condition_note": null,
             "post_damage": []
           },
           "row_idx": 12,
@@ -9013,7 +9013,7 @@
               "panel_description": "Yield",
               "panel_size": "36\"x 36\" x 36\"",
               "panel_condition": "G",
-              "sheeting_condition": "P",
+              "sheeting_condition": null,
               "damage_flags": [],
               "damage_text": "peeling",
               "sheeting_type": "DG3",
@@ -9023,7 +9023,7 @@
               "mounting_hardware": "carriage_bolts",
               "mounting_hardware_raw": null,
               "retro_day_r1": "G",
-              "notes": "Panel cond note: ood · Sheet cond note: oo · Retro note: ood · Damage: peeling"
+              "notes": "Sheet cond note: Poo · Damage: peeling"
             }
           ]
         },
