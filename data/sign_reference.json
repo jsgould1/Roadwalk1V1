@@ -2199,7 +2199,7 @@
     },
     "10S (1) (MP20-30)": {
       "label": "10S (1) (MP20-30)",
-      "row_count": 55,
+      "row_count": 54,
       "rows": [
         {
           "side": "Right",
@@ -3536,7 +3536,7 @@
           "panels": [
             {
               "facing_degrees": 0,
-              "panel_description": "Campgground to the right",
+              "panel_description": "Campground to the right",
               "panel_size": "18\" x 24\"",
               "panel_condition": "G",
               "sheeting_condition": "F",
@@ -4306,26 +4306,6 @@
               "notes": "Panel cond note: air · Sheet cond note: air · Retro note: air"
             }
           ]
-        },
-        {
-          "side": null,
-          "eop_offset": null,
-          "post": {
-            "post_type": null,
-            "post_type_raw": null,
-            "post_count": null,
-            "post_height_ft": null,
-            "post_foundation": null,
-            "post_foundation_raw": null,
-            "post_breakaway": null,
-            "post_breakaway_raw": null,
-            "post_condition": null,
-            "post_condition_note": null,
-            "post_damage": []
-          },
-          "row_idx": 55,
-          "row_label": "#55",
-          "panels": []
         }
       ]
     },
@@ -9010,7 +8990,7 @@
           ]
         },
         {
-          "side": "SB ramp right",
+          "side": "SB Ramp Right",
           "eop_offset": 7,
           "post": {
             "post_type": "WOOD_4X4",
@@ -10217,5 +10197,5 @@
       "rows": []
     }
   },
-  "total_rows": 333
+  "total_rows": 332
 }

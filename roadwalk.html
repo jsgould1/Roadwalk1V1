@@ -43143,6 +43143,7 @@ console.log('%c[RoadWalk] BUILD v20260514 loaded OK', 'color:#16a34a;font-weight
 <div id="rw-sref-panel" aria-label="Sign Inventory Reference Panel">
   <div class="rw-sref-hdr" id="rw-sref-hdr">
     <span class="rw-sref-hdr-title">📋 Sign Reference</span>
+    <button type="button" id="rw-sref-refresh-btn" title="Re-pull the reference data published with the project">Refresh</button>
     <button type="button" id="rw-sref-clear-btn" title="Forget the loaded reference data">Clear</button>
     <button type="button" id="rw-sref-close-btn" aria-label="Close panel">✕</button>
   </div>
@@ -43182,6 +43183,26 @@ console.log('%c[RoadWalk] BUILD v20260514 loaded OK', 'color:#16a34a;font-weight
     } catch (e) { console.warn('[SignRef] localStorage write failed', e); }
   }
 
+  // Pull the copy that ships with the project. Without this the panel only
+  // ever had the one-time file-pick, so whatever was imported first stayed
+  // cached in localStorage indefinitely and silently went stale as the
+  // spreadsheet gained sheets.
+  var _fetching = false;
+  async function _fetchProjectDataset() {
+    var res = await fetch('./data/sign_reference.json?ts=' + Date.now(), { cache: 'no-store' });
+    if (!res.ok) throw new Error('HTTP ' + res.status);
+    var parsed = await res.json();
+    if (parsed._format !== 'roadwalk-sign-reference-v1') {
+      throw new Error('unexpected _format: ' + parsed._format);
+    }
+    _saveDataset(parsed);
+    try {
+      localStorage.removeItem(LS_SHEET);
+      localStorage.setItem(LS_ROW, '0');
+    } catch (_) {}
+    return parsed;
+  }
+
   // ── Panel show / hide ────────────────────────────────────────────
   var panelEl  = document.getElementById('rw-sref-panel');
   var bodyEl   = document.getElementById('rw-sref-body');
@@ -43200,14 +43221,27 @@ console.log('%c[RoadWalk] BUILD v20260514 loaded OK', 'color:#16a34a;font-weight
   function render() {
     var data = _loadDataset();
     if (!data || !data.sheets || !Object.keys(data.sheets).length) {
-      bodyEl.innerHTML =
-        '<div class="rw-sref-load-row">'
-        + '<input type="file" id="rw-sref-file" accept="application/json,.json">'
-        + '</div>'
-        + '<div class="rw-sref-empty">No reference data loaded. Pick a '
-        + '<strong>sign_reference.json</strong> file produced by '
-        + '<code>data/import_sign_inventory.py</code>.</div>';
-      _wireFile();
+      // Nothing cached — try the project's own copy before asking the user
+      // to go find a file.
+      if (!_fetching) {
+        _fetching = true;
+        bodyEl.innerHTML = '<div class="rw-sref-empty">Loading reference data…</div>';
+        _fetchProjectDataset().then(function () {
+          _fetching = false;
+          render();
+        }).catch(function (err) {
+          _fetching = false;
+          console.warn('[SignRef] project dataset unavailable:', err);
+          bodyEl.innerHTML =
+            '<div class="rw-sref-load-row">'
+            + '<input type="file" id="rw-sref-file" accept="application/json,.json">'
+            + '</div>'
+            + '<div class="rw-sref-empty">No reference data loaded. Pick a '
+            + '<strong>sign_reference.json</strong> file produced by '
+            + '<code>data/import_sign_inventory.py</code>.</div>';
+          _wireFile();
+        });
+      }
       return;
     }
     var sheetNames = Object.keys(data.sheets);
@@ -43414,6 +43448,23 @@ console.log('%c[RoadWalk] BUILD v20260514 loaded OK', 'color:#16a34a;font-weight
       localStorage.removeItem(LS_ROW);
     } catch (_) {}
     render();
+  });
+  document.getElementById('rw-sref-refresh-btn')?.addEventListener('click', function () {
+    var btn = this;
+    btn.disabled = true;
+    var prev = btn.textContent;
+    btn.textContent = '…';
+    _fetchProjectDataset().then(function (d) {
+      var n = Object.keys(d.sheets || {}).length;
+      btn.textContent = prev;
+      btn.disabled = false;
+      render();
+      alert('Reference data refreshed — ' + (d.total_rows || 0) + ' rows across ' + n + ' sheet(s).');
+    }).catch(function (err) {
+      btn.textContent = prev;
+      btn.disabled = false;
+      alert('Could not refresh reference data: ' + (err && err.message ? err.message : err));
+    });
   });
 
   // ── Toggle button on the data form ───────────────────────────────
