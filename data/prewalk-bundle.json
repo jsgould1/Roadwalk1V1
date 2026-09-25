@@ -163471,12 +163471,12 @@
      "geometry": {
       "type": "Point",
       "coordinates": [
-       -83.30109693296194,
-       35.50532398329331
+       -83.3007432005721,
+       35.50577598970234
       ]
      },
-     "sta_ft": 250.5,
-     "sta": "2+50.52",
+     "sta_ft": 55.0,
+     "sta": "0+55.00",
      "attrs": {
       "side": "R",
       "gate_dir": "NB",
@@ -163499,7 +163499,7 @@
         "comment": ""
        }
       ],
-      "notes": "Attached to gate structure at SB end of section (STA 2+50.52).  BLRI row 8 #5.",
+      "notes": "On the gate structure at STA 0+55.00 (located from aerial). R side, 15 ft off centerline. XLSX BLRI row 8.",
       "source": "AECOM_XLSX_BLRI_GATES",
       "_source_row": 8,
       "offset_from_centerline_ft": 15.0
@@ -163514,12 +163514,12 @@
      "geometry": {
       "type": "Point",
       "coordinates": [
-       -83.30101154600521,
-       35.505279700317686
+       -83.30065781299604,
+       35.505731706904015
       ]
      },
-     "sta_ft": 250.5,
-     "sta": "2+50.52",
+     "sta_ft": 55.0,
+     "sta": "0+55.00",
      "attrs": {
       "side": "L",
       "gate_dir": "NB",
@@ -163542,7 +163542,7 @@
         "comment": ""
        }
       ],
-      "notes": "Attached to gate structure at SB end of section (STA 2+50.52).  BLRI row 9 #6.",
+      "notes": "On the gate structure at STA 0+55.00 (located from aerial). L side, 15 ft off centerline. XLSX BLRI row 9.",
       "source": "AECOM_XLSX_BLRI_GATES",
       "_source_row": 9,
       "offset_from_centerline_ft": 15.0
@@ -163557,12 +163557,12 @@
      "geometry": {
       "type": "Point",
       "coordinates": [
-       -83.30106277817924,
-       35.50530627010306
+       -83.30070904554168,
+       35.50575827658301
       ]
      },
-     "sta_ft": 250.5,
-     "sta": "2+50.52",
+     "sta_ft": 55.0,
+     "sta": "0+55.00",
      "attrs": {
       "side": "R",
       "gate_dir": "NB",
@@ -163585,7 +163585,7 @@
         "comment": ""
        }
       ],
-      "notes": "Attached to gate structure at SB end of section (STA 2+50.52).  BLRI row 10 #7.",
+      "notes": "On the gate structure at STA 0+55.00 (located from aerial). R side, 3 ft off centerline. XLSX BLRI row 10.",
       "source": "AECOM_XLSX_BLRI_GATES",
       "_source_row": 10,
       "offset_from_centerline_ft": 3.0
@@ -163600,12 +163600,12 @@
      "geometry": {
       "type": "Point",
       "coordinates": [
-       -83.30107131687492,
-       35.50531069840062
+       -83.30071758429928,
+       35.505762704862846
       ]
      },
-     "sta_ft": 250.5,
-     "sta": "2+50.52",
+     "sta_ft": 55.0,
+     "sta": "0+55.00",
      "attrs": {
       "side": "R",
       "gate_dir": "NB",
@@ -163628,7 +163628,7 @@
         "comment": ""
        }
       ],
-      "notes": "Attached to gate structure at SB end of section (STA 2+50.52).  BLRI row 11 #8.",
+      "notes": "On the gate structure at STA 0+55.00 (located from aerial). R side, 6 ft off centerline. XLSX BLRI row 11.",
       "source": "AECOM_XLSX_BLRI_GATES",
       "_source_row": 11,
       "offset_from_centerline_ft": 6.0
@@ -163643,12 +163643,12 @@
      "geometry": {
       "type": "Point",
       "coordinates": [
-       -83.30104570078791,
-       35.50529741350793
+       -83.30069196802646,
+       35.50574942002335
       ]
      },
-     "sta_ft": 250.5,
-     "sta": "2+50.52",
+     "sta_ft": 55.0,
+     "sta": "0+55.00",
      "attrs": {
       "side": "L",
       "gate_dir": "SB",
@@ -163671,7 +163671,7 @@
         "comment": ""
        }
       ],
-      "notes": "Attached to gate structure at SB end of section (STA 2+50.52).  BLRI row 12 #9.",
+      "notes": "On the gate structure at STA 0+55.00 (located from aerial). L side, 3 ft off centerline. XLSX BLRI row 12.",
       "source": "AECOM_XLSX_BLRI_GATES",
       "_source_row": 12,
       "offset_from_centerline_ft": 3.0

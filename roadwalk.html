@@ -12579,25 +12579,46 @@ console.log('%c[RoadWalk] BUILD v20260514 loaded OK', 'color:#16a34a;font-weight
         // Pin-level merge into existing saved sections.
         var _pinsMerged = 0;
         var _pinsMergedDetail = [];
+        var _pinsResynced = 0;
+        var _pinsResyncedDetail = [];
         saved.sections.forEach(function (savedSec) {
           if (!savedSec || !savedSec.id) return;
           var bundleSec = _bundleSecById[savedSec.id];
           if (!bundleSec || !Array.isArray(bundleSec.pins) || !bundleSec.pins.length) return;
           savedSec.pins = savedSec.pins || [];
-          var seen = new Set();
+          var seen = new Map();
           savedSec.pins.forEach(function (p) {
             if (!p) return;
-            if (p.ulid) seen.add('u:' + p.ulid);
-            if (p.id)   seen.add('i:' + p.id);
+            if (p.ulid) seen.set('u:' + p.ulid, p);
+            if (p.id)   seen.set('i:' + p.id,   p);
           });
           bundleSec.pins.forEach(function (bp) {
             if (!bp) return;
             var uk = bp.ulid ? 'u:' + bp.ulid : null;
             var ik = bp.id   ? 'i:' + bp.id   : null;
-            if ((uk && seen.has(uk)) || (ik && seen.has(ik))) return;
+            var hit = (uk && seen.get(uk)) || (ik && seen.get(ik)) || null;
+            if (hit) {
+              // Already present. Geometry is authoring-owned, so a corrected
+              // position in the bundle should reach the field — but never
+              // clobber a pin the user physically dragged (attrs._moved_at,
+              // stamped at roadwalk.html:16179). Field-entered attrs and
+              // status are left alone either way; only position moves.
+              if (!hit._bundle) return;
+              if (hit.attrs && hit.attrs._moved_at) return;
+              var bc = bp.geometry && bp.geometry.coordinates;
+              var hc = hit.geometry && hit.geometry.coordinates;
+              if (!bc || !hc) return;
+              if (bc[0] === hc[0] && bc[1] === hc[1]) return;
+              hit.geometry = JSON.parse(JSON.stringify(bp.geometry));
+              if (bp.sta_ft != null) hit.sta_ft = bp.sta_ft;
+              if (bp.sta    != null) hit.sta    = bp.sta;
+              _pinsResynced++;
+              _pinsResyncedDetail.push(savedSec.id + '/' + (bp.id || bp.ulid || '?'));
+              return;
+            }
             savedSec.pins.push(bp);
-            if (uk) seen.add(uk);
-            if (ik) seen.add(ik);
+            if (uk) seen.set(uk, bp);
+            if (ik) seen.set(ik, bp);
             _pinsMerged++;
             _pinsMergedDetail.push(savedSec.id + '/' + (bp.id || bp.ulid || '?'));
           });
@@ -12648,10 +12669,13 @@ console.log('%c[RoadWalk] BUILD v20260514 loaded OK', 'color:#16a34a;font-weight
             '], +' + _pinsMerged + ' new bundle pin(s) merged into existing sections' +
             (_pinsMerged ? ' [' + _pinsMergedDetail.slice(0, 20).join(',') +
               (_pinsMergedDetail.length > 20 ? ',…' : '') + ']' : '') +
+            ', ' + _pinsResynced + ' pin(s) re-positioned from bundle' +
+            (_pinsResynced ? ' [' + _pinsResyncedDetail.slice(0, 20).join(',') +
+              (_pinsResyncedDetail.length > 20 ? ',…' : '') + ']' : '') +
             ', hydrated ' + hydrations.length + ' photo dataUrl(s), saved', saved.saved_at);
           // Persist the merged copy so the new sections and merged pins
           // survive the next reload (and are included in any export).
-          if ((added.length || _pinsMerged) && window._RW && typeof window._RW.persistSections === 'function') {
+          if ((added.length || _pinsMerged || _pinsResynced) && window._RW && typeof window._RW.persistSections === 'function') {
             window._RW.persistSections();
           }
         });
