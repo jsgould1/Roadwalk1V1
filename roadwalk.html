@@ -12624,6 +12624,26 @@ console.log('%c[RoadWalk] BUILD v20260514 loaded OK', 'color:#16a34a;font-weight
           });
         });
         SECTIONS = saved.sections.concat(added);
+        // Collapse duplicate section ids. A section that was restored and then
+        // re-pushed (clearFieldData re-injects preserved sections after the
+        // reload path has already restored them) shows up twice, which double
+        // counts it everywhere downstream. Keep whichever copy carries the most
+        // pins so this can never drop field data.
+        var _byId = new Map();
+        var _dupes = [];
+        SECTIONS.forEach(function (sec) {
+          if (!sec || !sec.id) return;
+          var prev = _byId.get(sec.id);
+          if (!prev) { _byId.set(sec.id, sec); return; }
+          _dupes.push(sec.id);
+          if ((sec.pins || []).length > (prev.pins || []).length) _byId.set(sec.id, sec);
+        });
+        if (_dupes.length) {
+          SECTIONS = SECTIONS.filter(function (sec) {
+            return sec && sec.id && _byId.get(sec.id) === sec;
+          });
+          console.warn('[RoadWalk] dropped duplicate section(s):', _dupes.join(','));
+        }
         window.SECTIONS = SECTIONS;
         // featureCount/meta are derived fields that applyBundle computes once
         // from the bundle. A restored section carries whatever value it was
@@ -32473,14 +32493,46 @@ console.log('%c[RoadWalk] BUILD v20260514 loaded OK', 'color:#16a34a;font-weight
 
     // ── Populate Section dropdown once per render ─────────────────────
     var secEl = document.getElementById('sr-section');
-    if (secEl && !secEl._populated) {
-      var opts = ['<option value="">(all sections)</option>']
-        .concat(sections.map(function (s) {
-          return '<option value="' + s.id + '">' + s.id + ' — ' + (s.name || '') + '</option>';
-        }));
-      secEl.innerHTML = opts.join('');
-      secEl._populated = true;
-      secEl.addEventListener('change', renderSignsReport);
+    if (secEl) {
+      // Order by the bundle's own section order, with anything the bundle
+      // doesn't know about (field-added sections) after it. Without this the
+      // list is raw SECTIONS order, where the reload merge appends a
+      // newly-published section via concat() — so a new section landed below
+      // every user-added one instead of in its bundle position. Duplicate ids
+      // are dropped; a section restored and then re-pushed (clearFieldData)
+      // could otherwise appear twice.
+      var order = {};
+      ((window.BUNDLE && window.BUNDLE.sections) || []).forEach(function (s, i) {
+        if (s && s.id) order[s.id] = i;
+      });
+      var seenIds = {};
+      var uniq = sections.filter(function (s) {
+        if (!s || !s.id || seenIds[s.id]) return false;
+        seenIds[s.id] = 1;
+        return true;
+      });
+      var BIG = 1e9;
+      uniq.forEach(function (s, i) { s._srIdx = i; });
+      var ordered = uniq.slice().sort(function (a, b) {
+        var oa = order[a.id] != null ? order[a.id] : BIG;
+        var ob = order[b.id] != null ? order[b.id] : BIG;
+        return oa - ob || a._srIdx - b._srIdx;
+      });
+      uniq.forEach(function (s) { delete s._srIdx; });
+      var sig = ordered.map(function (s) { return s.id; }).join('|');
+      if (secEl._sig !== sig) {
+        var prev = secEl.value;
+        secEl.innerHTML = ['<option value="">(all sections)</option>']
+          .concat(ordered.map(function (s) {
+            return '<option value="' + s.id + '">' + s.id + ' — ' + (s.name || '') + '</option>';
+          })).join('');
+        secEl._sig = sig;
+        if (prev && ordered.some(function (s) { return s.id === prev; })) secEl.value = prev;
+      }
+      if (!secEl._wiredChange) {
+        secEl._wiredChange = true;
+        secEl.addEventListener('change', renderSignsReport);
+      }
     }
     var searchEl = document.getElementById('sr-search');
     if (searchEl && !searchEl._wired) {
