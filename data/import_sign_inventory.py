@@ -224,6 +224,30 @@ def _num(v):
         return None
 
 
+def _feet(v):
+    """Height in decimal feet. Accepts 8'6", 8', 8 ft 6 in, or a bare number.
+
+    Heights are entered as feet-and-inches, which _num() rejects outright
+    (float("8'6\"") raises), so every such cell silently became null and the
+    report printed a blank height. 8'6" is 8.5, not 8.
+    """
+    if v is None or v == "":
+        return None
+    if isinstance(v, (int, float)):
+        return round(float(v), 2)
+    s = str(v).strip()
+    if not s:
+        return None
+    m = re.match(r"^\s*(\d+(?:\.\d+)?)\s*(?:'|ft\b|feet\b)\s*(?:(\d+(?:\.\d+)?)\s*(?:\"|in\b|inch\w*)?)?",
+                 s, re.I)
+    if m:
+        ft = float(m.group(1))
+        inch = float(m.group(2)) if m.group(2) else 0.0
+        return round(ft + inch / 12.0, 2)
+    m = re.match(r"^\s*(\d+(?:\.\d+)?)\s*$", s)
+    return round(float(m.group(1)), 2) if m else None
+
+
 def _build_post(row):
     """Build the {post:{}, side, eop_offset} block from one row's cells."""
     # Spreadsheet columns (0-based, with col A being blank in every sheet):
@@ -248,7 +272,7 @@ def _build_post(row):
         "post_type":         pt_m,
         "post_type_raw":     pt_raw,
         "post_count":        _num(row[4]),
-        "post_height_ft":    _num(row[6]),
+        "post_height_ft":    _feet(row[6]),
         "post_foundation":   fnd_m,
         "post_foundation_raw": fnd_raw,
         "post_breakaway":    brk_m,

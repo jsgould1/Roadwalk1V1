@@ -33132,8 +33132,10 @@ console.log('%c[RoadWalk] BUILD v20260514 loaded OK', 'color:#16a34a;font-weight
             // 5/43 for foundation on N3 — so a post_-only read printed "—"
             // for values that were sitting right next to it.
             _field('Height (ft)', po.post_height_ft != null ? po.post_height_ft : po.height_ft) +
-            _field('Foundation', po.post_foundation != null ? po.post_foundation : po.foundation) +
-            _field('Finish',     po.post_finish != null ? po.post_finish : po.finish) +
+            _field('Foundation', _spellFrom(_FOUNDATION_SPELLED,
+                     po.post_foundation != null ? po.post_foundation : po.foundation)) +
+            _field('Finish',     _spellFrom(_FINISH_SPELLED,
+                     po.post_finish != null ? po.post_finish : po.finish)) +
             _field('Breakaway',  po.post_breakaway != null ? po.post_breakaway : po.breakaway) +
             _field('Condition',  _coloredCond(po.post_condition), { raw: true }) +
             _field('Damage', damage, { full: true, wrap: true }) +
@@ -33186,6 +33188,33 @@ console.log('%c[RoadWalk] BUILD v20260514 loaded OK', 'color:#16a34a;font-weight
         var s = String(v).trim().toUpperCase();
         if (_SHEETING_SPELLED[s]) return _SHEETING_SPELLED[s];
         return v;
+      }
+      // Post foundation / finish codes → the same labels the data form
+      // shows (roadwalk.html:37328). The report was printing the bare
+      // code, so a reader saw "buried_direct" where the form and the
+      // source spreadsheet both say "Direct bury". Unknown values pass
+      // through verbatim rather than being hidden.
+      var _FOUNDATION_SPELLED = {
+        buried_direct: 'Direct bury',
+        concrete:      'Concrete footing',
+        drive_anchor:  'Drive anchor',
+        flange_plate:  'Flange plate',
+        other:         'Other',
+      };
+      var _FINISH_SPELLED = {
+        galvanized:  'Galvanized',
+        powder_coat: 'Powder coat',
+        painted:     'Painted',
+        bare_steel:  'Bare steel',
+        other:       'Other',
+      };
+      function _spellFrom(table, v) {
+        if (v == null || v === '') return v;
+        // These tables are var-declared below _postCardHtml, so guard the
+        // hoisting window rather than crash the way _coloredCond once did.
+        if (!table) return v;
+        var s = String(v).trim().toLowerCase();
+        return table[s] != null ? table[s] : v;
       }
       // Panel type — Aluminum by default; Corrugated Aluminum when
       // the panel notes mention 'corrugat' (catches 'corrugated' and
