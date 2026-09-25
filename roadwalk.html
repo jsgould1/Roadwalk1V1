@@ -12604,6 +12604,22 @@ console.log('%c[RoadWalk] BUILD v20260514 loaded OK', 'color:#16a34a;font-weight
         });
         SECTIONS = saved.sections.concat(added);
         window.SECTIONS = SECTIONS;
+        // featureCount/meta are derived fields that applyBundle computes once
+        // from the bundle. A restored section carries whatever value it was
+        // persisted with, so a section that has since gained pins reports the
+        // old number ("0 pins" on a section holding 43). Recompute both from
+        // the live pins array now that the merge is done.
+        SECTIONS.forEach(function (sec) {
+          if (!sec) return;
+          var n = (sec.pins || []).length;
+          sec.featureCount = n;
+          var code = sec.project_code || sec.projectCode;
+          var a = (sec.mp_start != null) ? sec.mp_start : sec.mpStart;
+          var b = (sec.mp_end   != null) ? sec.mp_end   : sec.mpEnd;
+          if (code && typeof a === 'number' && typeof b === 'number') {
+            sec.meta = code + ' · ' + a.toFixed(2) + ' → ' + b.toFixed(2) + ' MP · ' + n + ' pins';
+          }
+        });
         // Hydrate per-pin photo dataUrls back from their own IDB
         // records. _persistSections externalises them so the
         // SECTIONS blob stays small (avoids structured-clone OOM).
