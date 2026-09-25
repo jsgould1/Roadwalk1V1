@@ -33123,12 +33123,18 @@ console.log('%c[RoadWalk] BUILD v20260514 loaded OK', 'color:#16a34a;font-weight
             '<span>POST ' + (i + 1) + '</span>' +
           '</div>' +
           '<div class="sr-field-grid">' +
-            _field('Type',       po.post_type) +
-            _field('Count',      po.post_count) +
-            _field('Height (ft)', po.post_height_ft) +
-            _field('Foundation', po.post_foundation) +
-            _field('Finish',     po.post_finish) +
-            _field('Breakaway',  po.post_breakaway) +
+            _field('Type',       po.post_type   != null ? po.post_type   : po.type) +
+            _field('Count',      po.post_count  != null ? po.post_count  : po.count) +
+            // Spreadsheet-ingested posts carry bare keys (height_ft,
+            // foundation) while the data form writes post_-prefixed ones.
+            // Both live side by side on the same record, and the ingested
+            // copy is far better populated — 39/43 vs 20/43 for height and
+            // 5/43 for foundation on N3 — so a post_-only read printed "—"
+            // for values that were sitting right next to it.
+            _field('Height (ft)', po.post_height_ft != null ? po.post_height_ft : po.height_ft) +
+            _field('Foundation', po.post_foundation != null ? po.post_foundation : po.foundation) +
+            _field('Finish',     po.post_finish != null ? po.post_finish : po.finish) +
+            _field('Breakaway',  po.post_breakaway != null ? po.post_breakaway : po.breakaway) +
             _field('Condition',  _coloredCond(po.post_condition), { raw: true }) +
             _field('Damage', damage, { full: true, wrap: true }) +
             (po.notes ? _field('Notes', po.notes, { full: true, wrap: true }) : '') +
@@ -33201,9 +33207,17 @@ console.log('%c[RoadWalk] BUILD v20260514 loaded OK', 'color:#16a34a;font-weight
         var deg = +(pn.facing_degrees || 0);
         var facingLbl = _DIR_LABEL[deg]
           || (pn.facing_degrees != null ? deg + '°' : '');
-        var dmg = Array.isArray(pn.damage_flags)
-          ? pn.damage_flags.join(' · ')
-          : pn.damage_flags;
+        // Prefer the damage text as recorded. damage_flags is a lossy
+        // classification of it: "Rock" was reaching the page as "BENT",
+        // "Dented, Bent" collapsed to "BENT", and "Sheet peeling" dropped
+        // to blank because nothing in the flag vocabulary matched. The
+        // verbatim text is what the source spreadsheet holds, so it wins;
+        // flags are the fallback for records that only ever had flags.
+        var dmgRaw = pn.damage != null ? pn.damage
+                   : (pn.damage_text != null ? pn.damage_text : null);
+        var dmg = (dmgRaw != null && String(dmgRaw).trim() !== '')
+          ? dmgRaw
+          : (Array.isArray(pn.damage_flags) ? pn.damage_flags.join(' · ') : pn.damage_flags);
         var hdr = 'PANEL ' + (displayIdx + 1);
         if (facingLbl) hdr += ' · ' + facingLbl;
         if (pn.sign_code) {
