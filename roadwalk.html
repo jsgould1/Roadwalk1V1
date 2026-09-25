@@ -27229,6 +27229,48 @@ console.log('%c[RoadWalk] BUILD v20260514 loaded OK', 'color:#16a34a;font-weight
 
     renderSectionList('all');
     showView('list');
+
+    // The cached bundle above can be arbitrarily old: nothing re-fetches the
+    // published file on a normal load, so a corrected pin position or a newly
+    // published section stayed invisible until the user happened to click
+    // "Reload from published data". Worse, the pin-level merge compared the
+    // working copy against that stale cache and correctly concluded there was
+    // nothing new to take.
+    //
+    // So once the UI is up, quietly check the published bundle and re-apply it
+    // if it actually changed. Cached data still renders first (offline-first is
+    // preserved, and an offline device just fails this fetch and carries on),
+    // but an online device converges on publish. applyBundle keeps the working
+    // copy and merges, so field edits are not at risk.
+    if (bundleLoaded) {
+      (async function _bgRefreshBundle() {
+        try {
+          const pid = (PROJECT && PROJECT.id) || null;
+          if (!pid) return;
+          const manifest = await _loadProjectManifest();
+          const projects = (manifest && manifest.projects) || [];
+          const proj = projects.find(function (p) { return p.id === pid; });
+          if (!proj || !proj.file) return;
+          const res = await fetch('./' + proj.file + '?bg=' + Date.now(), { cache: 'no-store' });
+          if (!res.ok) return;
+          const fresh = await res.json();
+          if (!fresh || !Array.isArray(fresh.sections)) return;
+          if (!fresh.name)   fresh.name   = proj.name;
+          if (!fresh.client) fresh.client = proj.client || '';
+          if (!fresh.id)     fresh.id     = proj.id;
+          // Compare against the cache we booted from, not the live SECTIONS —
+          // SECTIONS is the merged working copy and always differs.
+          const cachedStr = JSON.stringify((window.BUNDLE && window.BUNDLE.sections) || null);
+          if (cachedStr === JSON.stringify(fresh.sections)) return;
+          try { await _saveProjectToDB(fresh); } catch (_) {}
+          console.log('[RoadWalk] published bundle changed — re-applying.');
+          applyBundle(fresh);
+          renderSectionList('all');
+        } catch (err) {
+          console.warn('[RoadWalk] background bundle refresh skipped:', err);
+        }
+      })();
+    }
   })();
 
   // "Change project" button — open picker with cancel option.
